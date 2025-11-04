@@ -27,7 +27,8 @@ java Rc.java
 ```
 
 ### 2. Visualization
-
+To start the program, run:
 ```bash
 mvn javafx:run
 ```
+Then load one of the generated JSON files
