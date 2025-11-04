@@ -7,24 +7,27 @@ import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Objects;
+import java.util.Set;
 
 public class Rc {
-
     private final int c;
-
     private final Recorder recorder;
 
     private Node vCur;
     private int pin;
-    private int color;
-    //TODO map with colors - or only in visualization?
+    private int activeColor;  // self.color in the paper
+
+    private final int maxOuterIterations = 10000;
 
     public Rc(int c, Recorder recorder) {
-        if (c < 2)
-            throw new IllegalArgumentException("C must be greater or equal to 2!");
+        if (c < 2) throw new IllegalArgumentException("c must be >= 2");
         this.c = c;
-        color = randomColor(c);
-        this.recorder = recorder;
+        this.recorder = Objects.requireNonNull(recorder);
+        this.activeColor = randomColor(c);
     }
 
     public static int randomColor(int c) {
@@ -32,100 +35,193 @@ public class Rc {
     }
 
     public static int randomColorExcluding(int c, int excluding) {
-        int color; //TODO
-        do {
-            color = randomColor(c);
-        } while (color == excluding);
-        return color;
+        int col;
+        do { col = randomColor(c); } while (col == excluding);
+        return col;
     }
 
-    private void printVCur() {
-        if (vCur.parent > -1)
-            System.out.println("Node " + vCur.id + ", " + vCur.color + " (pin: " + pin + ", parent: " + vCur.parent  +" - "+ vCur.neighbors.get(vCur.parent).id +")");
-        else System.out.println("Node " + vCur.id + ", " + vCur.color + " (pin: " + pin + ", parent: " + vCur.parent  + ")");
-    }
+    private void debug(String s) { System.out.println(s); }
 
-    public void traverse(Node v) {
-        vCur = v;
-        //TODO shouldn't the first vertex's parent be set to -1?
-        int iter = 0;
-        while (/*true*/ iter < 10) {
-            //TODO exit condition - in theory it never ends, but we should check whether all nodes were reached.
-            color = randomColorExcluding(c, color);
+    /**
+     * Implementation of Algorithm 1 (Rc) from the paper.
+     * Key insight: GoForward() includes immediate Type-I backtracking if destination has self.color.
+     */
+    public void traverse(Node start, List<Node> allNodes) {
+        Objects.requireNonNull(start); Objects.requireNonNull(allNodes);
+        if (!allNodes.contains(start)) throw new IllegalArgumentException("start must be in allNodes");
 
-            System.out.print("Starting iteration " + iter + " with color " + color + " form node:\n\t");
-            printVCur();
+        // Track overall visited nodes to implement stopping condition
+        Set<Integer> overallVisited = new HashSet<>();
+        
+        int outer = 0;
+        while (outer < maxOuterIterations && (overallVisited.size() != allNodes.size()) ) {
+            // Line 2: Choose self.color uniformly at random from {1,2,...,c}\{self.color}
+            activeColor = randomColorExcluding(c, activeColor);
+                    // init - all nodes start with parent = ⊥ (represented as -1)
+        // for (Node n : allNodes) { 
+        //     n.parent = -2; 
+        //     if (n.color < 0) n.color = 0; 
+        // }
 
-            vCur.color = color;
-            goForward(0);
+        vCur = start;
+        vCur.parent = -1;
+        pin = 0;
+        recorder.recordColorChange(vCur, allNodes, activeColor);
+            debug("\n--- outer " + outer + " activeColor=" + activeColor + " ---");
 
+            // Track visits and color-changes in this outer pass
+            Set<Integer> visitedThisOuter = new HashSet<>();
+            boolean colorChangedThisOuter = false;
+
+            // Line 3: vcur.color ← self.color (UNCONDITIONAL in the paper!)
+            boolean colorChanged = (vCur.color != activeColor);
+            vCur.color = activeColor;
+            if (colorChanged) {
+                colorChangedThisOuter = true;
+                recorder.recordColorChange(vCur, allNodes, activeColor);
+            }
+            visitedThisOuter.add(vCur.id);
+            overallVisited.add(vCur.id);
+
+            // Line 4: GoForward(0)
+            goForward(0, allNodes, visitedThisOuter, overallVisited);
+
+            // Lines 5-15: Main loop
             while (!(vCur.parent == -1 && pin == vCur.delta() - 1)) {
-                if (vCur.color != color) {
-                    vCur.color = color;
+                // Line 6: if vcur.color ≠ self.color then
+                if (vCur.color != activeColor) {
+                    // Lines 7-8: recolor and set parent
+                    vCur.color = activeColor;
                     vCur.parent = pin;
-                    goForward(nextR());
-                }
-                else {
+                    colorChangedThisOuter = true;
+                    recorder.recordColorChange(vCur, allNodes, activeColor);
+                    
+                    // Line 9: GoForward(nextR(vcur))
+                    goForward(nextR(), allNodes, visitedThisOuter, overallVisited);
+                } else {
+                    // Line 11: if vcur.parent = nextR(vcur) then
                     if (vCur.parent == nextR()) {
+                        // Line 12: vcur.parent ← ⊥
                         vCur.parent = -1;
-                        System.out.println("Type II backtracking from node " + vCur.id);
-                        migrate(vCur, nextR()); //Type II backtracking
-                    }
-                    else {
-                        goForward(nextR());
+                        // Line 13: Migrate to N(vcur, nextR(vcur)) - Type II backtracking
+                        migrate(vCur, nextR());
+                        visitedThisOuter.add(vCur.id);
+                        overallVisited.add(vCur.id);
+                        recorder.recordMove(vCur, allNodes, activeColor);
+                    } else {
+                        // Line 15: GoForward(nextR(vcur))
+                        goForward(nextR(), allNodes, visitedThisOuter, overallVisited);
                     }
                 }
-
-                //TODO maybe more record calls will be necessary? - for example for type I backtracking
-                recorder.record(vCur.id);
             }
 
-            iter++;
+            debug("End of outer " + outer + ": visitedThisOuter=" + visitedThisOuter.size() + 
+                  ", overallVisited=" + overallVisited.size() + "/" + allNodes.size() +
+                  ", colorChanged=" + colorChangedThisOuter);
+
+            // Stopping criterion: visited all nodes overall AND no color changed this iteration
+            if (overallVisited.size() == allNodes.size() && !colorChangedThisOuter) {
+                debug("Stopping: visited all nodes and no color changed in this outer iteration.");
+                break;
+            }
+
+            outer++;
         }
+
+        debug("Traverse finished after outer iterations: " + outer);
     }
 
-    private void goForward(int i) {
-        migrate(vCur, i);
-        if (vCur.color == color) {
-            System.out.println("Type I backtracking from node " + vCur.id);
-            migrate(vCur, pin); //Type I backtracking
+    /**
+     * Lines 16-19: GoForward function
+     * CRITICAL: This function includes Type-I backtracking (line 19)
+     */
+    private void goForward(int q, List<Node> allNodes, 
+                          Set<Integer> visitedThisOuter, Set<Integer> overallVisited) {
+        // Line 17: Migrate to node N(vcur, q) - forward move
+        migrate(vCur, q);
+        visitedThisOuter.add(vCur.id);
+        overallVisited.add(vCur.id);
+        recorder.recordMove(vCur, allNodes, activeColor);
+        
+        // Line 18-19: if vcur.color = self.color then Type-I backtracking
+        if (vCur.color == activeColor) {
+            debug("  Type-I backtrack: found node already colored " + activeColor);
+            // Migrate to node N(vcur, pin) - backtrack
+            migrate(vCur, pin);
+            visitedThisOuter.add(vCur.id);
+            overallVisited.add(vCur.id);
+            recorder.recordMove(vCur, allNodes, activeColor);
         }
     }
 
     private void migrate(Node v, int i) {
-        Node vLast = vCur;
-        if (i >= v.neighbors.size())
-            throw new IllegalArgumentException("Index out of bounds for node: " + vCur.id + ", index: " + i);
+        if (i < 0 || i >= v.neighbors.size()) {
+            throw new IllegalArgumentException("Index out of bounds at node " + v.id + 
+                                             " (degree=" + v.neighbors.size() + ", index=" + i + ")");
+        }
+        Node prev = v;
         vCur = v.neighbors.get(i);
-        pin = vCur.neighbors.indexOf(vLast);
-//        System.out.println("->simulation.Node " + vCur.id + ", " + vCur.color + " (pin: " + pin + ", parent: " + vCur.parent  +")");
-        System.out.print("->");
-        printVCur();
-        System.out.println("nextR: " + nextR());
+        pin = vCur.neighbors.indexOf(prev);
+        debug("migrated -> vCur=" + vCur.id + " pin=" + pin);
     }
 
-    private int nextR() {
-        return (pin + 1) % vCur.delta();
+    private int nextR() { 
+        return (pin + 1) % vCur.delta(); 
     }
+
 
     public static void main(String[] args) {
-        //TODO random graph generator for testing
+        // // sample graph
+        // Node n1 = new Node(5, 1);
+        // Node n2 = new Node(5, 2);
+        // Node n3 = new Node(5, 3);
+        // Node n4 = new Node(5, 4);
+        // Node n5 = new Node(5, 5);
+
+        // Node.createEdge(n1, n2);
+        // Node.createEdge(n2, n3);
+        // Node.createEdge(n2, n4);
+        // Node.createEdge(n2, n5);
+        // Node.createEdge(n3, n5);
+        // java.util.List<Node> nodes = java.util.Arrays.asList(n1, n2, n3, n4, n5);
+
+        // create 10 nodes, each with 5 available colors
         Node n1 = new Node(5, 1);
         Node n2 = new Node(5, 2);
         Node n3 = new Node(5, 3);
         Node n4 = new Node(5, 4);
         Node n5 = new Node(5, 5);
+        Node n6 = new Node(5, 6);
+        Node n7 = new Node(5, 7);
+        Node n8 = new Node(5, 8);
+        Node n9 = new Node(5, 9);
+        Node n10 = new Node(5, 10);
 
+        // create edges (more densely connected)
         Node.createEdge(n1, n2);
-        Node.createEdge(n2, n3);
-        Node.createEdge(n2, n4);
+        Node.createEdge(n1, n3);
+        Node.createEdge(n1, n4);
+        // Node.createEdge(n2, n3);
+        // Node.createEdge(n2, n4);
         Node.createEdge(n2, n5);
-        Node.createEdge(n3, n5);
+        Node.createEdge(n2, n6);
+        // Node.createEdge(n3, n5);
+        // Node.createEdge(n3, n6);
+        Node.createEdge(n3, n7);
+        Node.createEdge(n4, n7);
+        Node.createEdge(n4, n8);
+        // Node.createEdge(n5, n8);
+        // Node.createEdge(n5, n9);
+        Node.createEdge(n6, n9);
+        Node.createEdge(n6, n10);
+        // Node.createEdge(n7, n10);
+        // Node.createEdge(n8, n10);
+        Node.createEdge(n9, n10);
+        java.util.List<Node> nodes = java.util.Arrays.asList(n1, n2, n3, n4, n5,n6,n7,n8,n9,n10);
 
-        Recorder recorder = new Recorder(Arrays.asList(n1, n2, n3, n4, n5));
-        Rc algorithm = new Rc(5, recorder);
-
-        algorithm.traverse(n1);
+        Recorder recorder = new Recorder();
+        Rc rc = new Rc(5, recorder);
+        rc.traverse(n1, nodes);
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss");
         String timestamp = LocalDateTime.now().format(formatter);

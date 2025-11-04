@@ -16,8 +16,6 @@ public class Node {
         if (c < 2)
             throw new IllegalArgumentException("C must be greater or equal to 2!");
         this.color = simulation.Rc.randomColor(c);
-        /*this.color = -1; //TODO only for regular DFT testing
-        this.parent = 0;*/
 
         this.id = id;
     }
@@ -25,12 +23,12 @@ public class Node {
     public int delta() {
         return neighbors.size();
     }
-
     private static final Random rnd = new Random();
     public static void createEdge(Node a, Node b) {
         a.neighbors.add(b);
-        a.parent = rnd.nextInt(a.delta() + 1) - 1;
+        a.parent = rnd.nextInt(a.delta());
         b.neighbors.add(a);
-        b.parent = rnd.nextInt(b.delta() + 1) - 1;
+        b.parent = rnd.nextInt(b.delta());
+
     }
 }
