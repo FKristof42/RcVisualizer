@@ -2,7 +2,6 @@ package simulation;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Node {
 
@@ -23,12 +22,9 @@ public class Node {
     public int delta() {
         return neighbors.size();
     }
-    private static final Random rnd = new Random();
     public static void createEdge(Node a, Node b) {
         a.neighbors.add(b);
-        a.parent = rnd.nextInt(a.delta());
         b.neighbors.add(a);
-        b.parent = rnd.nextInt(b.delta());
 
     }
 }

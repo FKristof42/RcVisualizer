@@ -19,12 +19,13 @@ public class Rc {
 
     private Node vCur;
     private int pin;
-    private int activeColor;  // self.color in the paper
+    private int activeColor; // self.color in the paper
 
     private final int maxOuterIterations = 10000;
 
     public Rc(int c, Recorder recorder) {
-        if (c < 2) throw new IllegalArgumentException("c must be >= 2");
+        if (c < 2)
+            throw new IllegalArgumentException("c must be >= 2");
         this.c = c;
         this.recorder = Objects.requireNonNull(recorder);
         this.activeColor = randomColor(c);
@@ -36,37 +37,46 @@ public class Rc {
 
     public static int randomColorExcluding(int c, int excluding) {
         int col;
-        do { col = randomColor(c); } while (col == excluding);
+        do {
+            col = randomColor(c);
+        } while (col == excluding);
         return col;
     }
 
-    private void debug(String s) { System.out.println(s); }
+    private void debug(String s) {
+        System.out.println(s);
+    }
 
     /**
      * Implementation of Algorithm 1 (Rc) from the paper.
-     * Key insight: GoForward() includes immediate Type-I backtracking if destination has self.color.
+     * Key insight: GoForward() includes immediate Type-I backtracking if
+     * destination has self.color.
      */
     public void traverse(Node start, List<Node> allNodes) {
-        Objects.requireNonNull(start); Objects.requireNonNull(allNodes);
-        if (!allNodes.contains(start)) throw new IllegalArgumentException("start must be in allNodes");
+        Objects.requireNonNull(start);
+        Objects.requireNonNull(allNodes);
+        if (!allNodes.contains(start))
+            throw new IllegalArgumentException("start must be in allNodes");
 
         // Track overall visited nodes to implement stopping condition
         Set<Integer> overallVisited = new HashSet<>();
-        
+
         int outer = 0;
-        while (outer < maxOuterIterations && (overallVisited.size() != allNodes.size()) ) {
+        while (outer < maxOuterIterations && (overallVisited.size() != allNodes.size())) {
             // Line 2: Choose self.color uniformly at random from {1,2,...,c}\{self.color}
             activeColor = randomColorExcluding(c, activeColor);
-                    // init - all nodes start with parent = ⊥ (represented as -1)
-        // for (Node n : allNodes) { 
-        //     n.parent = -2; 
-        //     if (n.color < 0) n.color = 0; 
-        // }
+            // init - all nodes start with parent = ⊥ (represented as -1)
+            for (Node n : allNodes) {
+                n.parent = -2;
+                if (n.color < 0)
+                    n.color = 0;
+            }
 
-        vCur = start;
-        vCur.parent = -1;
-        pin = 0;
-        recorder.recordColorChange(vCur, allNodes, activeColor);
+            vCur = start;
+            vCur.parent = -1;
+            pin = 0;
+            recorder.recordColorChange(vCur, allNodes, activeColor);
+
             debug("\n--- outer " + outer + " activeColor=" + activeColor + " ---");
 
             // Track visits and color-changes in this outer pass
@@ -95,7 +105,7 @@ public class Rc {
                     vCur.parent = pin;
                     colorChangedThisOuter = true;
                     recorder.recordColorChange(vCur, allNodes, activeColor);
-                    
+
                     // Line 9: GoForward(nextR(vcur))
                     goForward(nextR(), allNodes, visitedThisOuter, overallVisited);
                 } else {
@@ -115,11 +125,12 @@ public class Rc {
                 }
             }
 
-            debug("End of outer " + outer + ": visitedThisOuter=" + visitedThisOuter.size() + 
-                  ", overallVisited=" + overallVisited.size() + "/" + allNodes.size() +
-                  ", colorChanged=" + colorChangedThisOuter);
+            debug("End of outer " + outer + ": visitedThisOuter=" + visitedThisOuter.size() +
+                    ", overallVisited=" + overallVisited.size() + "/" + allNodes.size() +
+                    ", colorChanged=" + colorChangedThisOuter);
 
-            // Stopping criterion: visited all nodes overall AND no color changed this iteration
+            // Stopping criterion: visited all nodes overall AND no color changed this
+            // iteration
             if (overallVisited.size() == allNodes.size() && !colorChangedThisOuter) {
                 debug("Stopping: visited all nodes and no color changed in this outer iteration.");
                 break;
@@ -135,14 +146,14 @@ public class Rc {
      * Lines 16-19: GoForward function
      * CRITICAL: This function includes Type-I backtracking (line 19)
      */
-    private void goForward(int q, List<Node> allNodes, 
-                          Set<Integer> visitedThisOuter, Set<Integer> overallVisited) {
+    private void goForward(int q, List<Node> allNodes,
+            Set<Integer> visitedThisOuter, Set<Integer> overallVisited) {
         // Line 17: Migrate to node N(vcur, q) - forward move
         migrate(vCur, q);
         visitedThisOuter.add(vCur.id);
         overallVisited.add(vCur.id);
         recorder.recordMove(vCur, allNodes, activeColor);
-        
+
         // Line 18-19: if vcur.color = self.color then Type-I backtracking
         if (vCur.color == activeColor) {
             debug("  Type-I backtrack: found node already colored " + activeColor);
@@ -156,8 +167,8 @@ public class Rc {
 
     private void migrate(Node v, int i) {
         if (i < 0 || i >= v.neighbors.size()) {
-            throw new IllegalArgumentException("Index out of bounds at node " + v.id + 
-                                             " (degree=" + v.neighbors.size() + ", index=" + i + ")");
+            throw new IllegalArgumentException("Index out of bounds at node " + v.id +
+                    " (degree=" + v.neighbors.size() + ", index=" + i + ")");
         }
         Node prev = v;
         vCur = v.neighbors.get(i);
@@ -165,10 +176,9 @@ public class Rc {
         debug("migrated -> vCur=" + vCur.id + " pin=" + pin);
     }
 
-    private int nextR() { 
-        return (pin + 1) % vCur.delta(); 
+    private int nextR() {
+        return (pin + 1) % vCur.delta();
     }
-
 
     public static void main(String[] args) {
         // // sample graph
@@ -217,7 +227,7 @@ public class Rc {
         // Node.createEdge(n7, n10);
         // Node.createEdge(n8, n10);
         Node.createEdge(n9, n10);
-        java.util.List<Node> nodes = java.util.Arrays.asList(n1, n2, n3, n4, n5,n6,n7,n8,n9,n10);
+        java.util.List<Node> nodes = java.util.Arrays.asList(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10);
 
         Recorder recorder = new Recorder();
         Rc rc = new Rc(5, recorder);
