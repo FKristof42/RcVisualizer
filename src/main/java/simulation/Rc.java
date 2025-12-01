@@ -6,8 +6,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
@@ -21,7 +19,7 @@ public class Rc {
     private int pin;
     private int activeColor; // self.color in the paper
 
-    private final int maxOuterIterations = 10000;
+    private final int maxOuterIterations = 10_000;
 
     public Rc(int c, Recorder recorder) {
         if (c < 2)
@@ -43,7 +41,7 @@ public class Rc {
         return col;
     }
 
-    private void debug(String s) {
+    private static void debug(String s) {
         System.out.println(s);
     }
 
@@ -52,11 +50,8 @@ public class Rc {
      * Key insight: GoForward() includes immediate Type-I backtracking if
      * destination has self.color.
      */
-    public void traverse(Node start, List<Node> allNodes) {
-        Objects.requireNonNull(start);
+    public void traverse(List<Node> allNodes) {
         Objects.requireNonNull(allNodes);
-        if (!allNodes.contains(start))
-            throw new IllegalArgumentException("start must be in allNodes");
 
         // Track overall visited nodes to implement stopping condition
         Set<Integer> overallVisited = new HashSet<>();
@@ -72,7 +67,7 @@ public class Rc {
                     n.color = 0;
             }
 
-            vCur = start;
+            vCur = allNodes.get(0);
             vCur.parent = -1;
             pin = 0;
             recorder.recordColorChange(vCur, allNodes, activeColor);
@@ -170,9 +165,8 @@ public class Rc {
             throw new IllegalArgumentException("Index out of bounds at node " + v.id +
                     " (degree=" + v.neighbors.size() + ", index=" + i + ")");
         }
-        Node prev = v;
         vCur = v.neighbors.get(i);
-        pin = vCur.neighbors.indexOf(prev);
+        pin = vCur.neighbors.indexOf(v);
         debug("migrated -> vCur=" + vCur.id + " pin=" + pin);
     }
 
@@ -196,7 +190,7 @@ public class Rc {
         // java.util.List<Node> nodes = java.util.Arrays.asList(n1, n2, n3, n4, n5);
 
         // create 10 nodes, each with 5 available colors
-        Node n1 = new Node(5, 1);
+        /*Node n1 = new Node(5, 1);
         Node n2 = new Node(5, 2);
         Node n3 = new Node(5, 3);
         Node n4 = new Node(5, 4);
@@ -227,16 +221,18 @@ public class Rc {
         // Node.createEdge(n7, n10);
         // Node.createEdge(n8, n10);
         Node.createEdge(n9, n10);
-        java.util.List<Node> nodes = java.util.Arrays.asList(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10);
+        java.util.List<Node> nodes = java.util.Arrays.asList(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10);*/
+
+        List<Node> nodes = Node.generateRandomConnectedGraph(20, 0.1, 5);
 
         Recorder recorder = new Recorder();
         Rc rc = new Rc(5, recorder);
-        rc.traverse(n1, nodes);
+        rc.traverse(nodes);
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss");
         String timestamp = LocalDateTime.now().format(formatter);
         Path out = Paths.get("target", "traces", "trace-" + timestamp + ".json");
         recorder.saveToFile(out);
-        System.out.println("Trace saved to " + out);
+        debug("Trace saved to " + out);
     }
 }
