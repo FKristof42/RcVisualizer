@@ -116,7 +116,7 @@ public class Measurement {
             Path out = Paths.get("measurements", "measurement.json");
 
             Gson g = new GsonBuilder().setPrettyPrinting().create();
-            String json = g.toJson(measurements);
+            String json = g.toJson(new Signature(MAX_COLORS, MAX_NODES, RUNSCOUNT, measurements));
             Files.createDirectories(out.getParent());
             Files.write(out, json.getBytes());
         } catch (IOException e) { throw new RuntimeException(e); }
