@@ -1,23 +1,25 @@
 package simulation;
 
+import measuring.Metrics;
 import persistence.Recorder;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 public class Rc {
     private final int c;
-    private final Recorder recorder;
+    // Recording is only necessary for visualization (but it would slow down the measuring process)
+    private final Optional<Recorder> recorder;
 
     private Node vCur;
     private int pin;
     private int activeColor; // self.color in the paper
+
+    // Metrics for analysis
+    public Metrics metrics = new Metrics();
 
     private final int maxOuterIterations = 10_000;
 
@@ -25,7 +27,7 @@ public class Rc {
         if (c < 2)
             throw new IllegalArgumentException("c must be >= 2");
         this.c = c;
-        this.recorder = Objects.requireNonNull(recorder);
+        this.recorder = Optional.ofNullable(recorder);
         this.activeColor = randomColor(c);
     }
 
@@ -41,8 +43,9 @@ public class Rc {
         return col;
     }
 
-    private static void debug(String s) {
-        System.out.println(s);
+    private void debug(String s) {
+        if (recorder.isPresent())
+            System.out.println(s);
     }
 
     /**
@@ -50,8 +53,10 @@ public class Rc {
      * Key insight: GoForward() includes immediate Type-I backtracking if
      * destination has self.color.
      */
-    public void traverse(List<Node> allNodes) {
+    public Metrics traverse(List<Node> allNodes) {
         Objects.requireNonNull(allNodes);
+
+        metrics = new Metrics();
 
         // Track overall visited nodes to implement stopping condition
         Set<Integer> overallVisited = new HashSet<>();
@@ -70,7 +75,7 @@ public class Rc {
             vCur = allNodes.get(0);
             vCur.parent = -1;
             pin = 0;
-            recorder.recordColorChange(vCur, allNodes, activeColor);
+            recorder.ifPresent(r -> r.recordColorChange(vCur, allNodes, activeColor));
 
             debug("\n--- outer " + outer + " activeColor=" + activeColor + " ---");
 
@@ -83,7 +88,8 @@ public class Rc {
             vCur.color = activeColor;
             if (colorChanged) {
                 colorChangedThisOuter = true;
-                recorder.recordColorChange(vCur, allNodes, activeColor);
+                recorder.ifPresent(r -> r.recordColorChange(vCur, allNodes, activeColor));
+                metrics.colorChanges++;
             }
             visitedThisOuter.add(vCur.id);
             overallVisited.add(vCur.id);
@@ -99,7 +105,8 @@ public class Rc {
                     vCur.color = activeColor;
                     vCur.parent = pin;
                     colorChangedThisOuter = true;
-                    recorder.recordColorChange(vCur, allNodes, activeColor);
+                    recorder.ifPresent(r -> r.recordColorChange(vCur, allNodes, activeColor));
+                    metrics.colorChanges++;
 
                     // Line 9: GoForward(nextR(vcur))
                     goForward(nextR(), allNodes, visitedThisOuter, overallVisited);
@@ -112,12 +119,13 @@ public class Rc {
                         migrate(vCur, nextR());
                         visitedThisOuter.add(vCur.id);
                         overallVisited.add(vCur.id);
-                        recorder.recordMove(vCur, allNodes, activeColor);
+                        recorder.ifPresent(r -> r.recordMove(vCur, allNodes, activeColor));
                     } else {
                         // Line 15: GoForward(nextR(vcur))
                         goForward(nextR(), allNodes, visitedThisOuter, overallVisited);
                     }
                 }
+                metrics.iterations++;
             }
 
             debug("End of outer " + outer + ": visitedThisOuter=" + visitedThisOuter.size() +
@@ -135,6 +143,8 @@ public class Rc {
         }
 
         debug("Traverse finished after outer iterations: " + outer);
+
+        return metrics;
     }
 
     /**
@@ -147,7 +157,7 @@ public class Rc {
         migrate(vCur, q);
         visitedThisOuter.add(vCur.id);
         overallVisited.add(vCur.id);
-        recorder.recordMove(vCur, allNodes, activeColor);
+        recorder.ifPresent(r -> r.recordMove(vCur, allNodes, activeColor));
 
         // Line 18-19: if vcur.color = self.color then Type-I backtracking
         if (vCur.color == activeColor) {
@@ -156,7 +166,7 @@ public class Rc {
             migrate(vCur, pin);
             visitedThisOuter.add(vCur.id);
             overallVisited.add(vCur.id);
-            recorder.recordMove(vCur, allNodes, activeColor);
+            recorder.ifPresent(r -> r.recordMove(vCur, allNodes, activeColor));
         }
     }
 
@@ -167,6 +177,7 @@ public class Rc {
         }
         vCur = v.neighbors.get(i);
         pin = vCur.neighbors.indexOf(v);
+        metrics.moves++;
         debug("migrated -> vCur=" + vCur.id + " pin=" + pin);
     }
 
@@ -175,20 +186,6 @@ public class Rc {
     }
 
     public static void main(String[] args) {
-        // // sample graph
-        // Node n1 = new Node(5, 1);
-        // Node n2 = new Node(5, 2);
-        // Node n3 = new Node(5, 3);
-        // Node n4 = new Node(5, 4);
-        // Node n5 = new Node(5, 5);
-
-        // Node.createEdge(n1, n2);
-        // Node.createEdge(n2, n3);
-        // Node.createEdge(n2, n4);
-        // Node.createEdge(n2, n5);
-        // Node.createEdge(n3, n5);
-        // java.util.List<Node> nodes = java.util.Arrays.asList(n1, n2, n3, n4, n5);
-
         // create 10 nodes, each with 5 available colors
         /*Node n1 = new Node(5, 1);
         Node n2 = new Node(5, 2);
@@ -233,6 +230,6 @@ public class Rc {
         String timestamp = LocalDateTime.now().format(formatter);
         Path out = Paths.get("target", "traces", "trace-" + timestamp + ".json");
         recorder.saveToFile(out);
-        debug("Trace saved to " + out);
+        System.out.println("Trace saved to " + out);
     }
 }

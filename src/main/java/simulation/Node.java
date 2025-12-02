@@ -27,6 +27,10 @@ public class Node {
 
     }
 
+    /**
+     * Generates a random connected undirected graph with n nodes and approximately the given density.
+     * When the density is too low to ensure connectivity, it is adjusted upwards (to n - 1 edges).
+     */
     public static List<Node> generateRandomConnectedGraph(int n, double density, int c) {
         if (n < 1)
             throw new IllegalArgumentException("n must be >= 1");
@@ -55,7 +59,6 @@ public class Node {
         for (int i = 1; i < n; i++) {
             int uIdx = order.get(i);
             int vIdx = order.get(rnd.nextInt(i)); // connect to a random earlier node
-            System.out.println(uIdx + " -- " + vIdx);
             Node.createEdge(nodes.get(uIdx), nodes.get(vIdx));
             existing.add(packEdge(Math.min(uIdx, vIdx), Math.max(uIdx, vIdx)));
         }
