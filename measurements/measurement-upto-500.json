@@ -1,0 +1,8108 @@
+{
+  "maxColors": 10,
+  "maxNodes": 500,
+  "nodeStep": 50,
+  "runsCount": 100,
+  "measurements": [
+    {
+      "c": 2,
+      "nodeCount": 10,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 45.2,
+      "averageColorChanges": 15.32,
+      "averageIterations": 32.96
+    },
+    {
+      "c": 2,
+      "nodeCount": 10,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 47.48,
+      "averageColorChanges": 16.05,
+      "averageIterations": 34.52
+    },
+    {
+      "c": 2,
+      "nodeCount": 10,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 49.42,
+      "averageColorChanges": 10.72,
+      "averageIterations": 32.11
+    },
+    {
+      "c": 2,
+      "nodeCount": 10,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 51.76,
+      "averageColorChanges": 8.53,
+      "averageIterations": 31.91
+    },
+    {
+      "c": 2,
+      "nodeCount": 10,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 59.9,
+      "averageColorChanges": 7.32,
+      "averageIterations": 35.2
+    },
+    {
+      "c": 2,
+      "nodeCount": 10,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 60.48,
+      "averageColorChanges": 6.15,
+      "averageIterations": 34.57
+    },
+    {
+      "c": 2,
+      "nodeCount": 10,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 67.98,
+      "averageColorChanges": 5.74,
+      "averageIterations": 38.11
+    },
+    {
+      "c": 2,
+      "nodeCount": 10,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 71.92,
+      "averageColorChanges": 5.11,
+      "averageIterations": 39.55
+    },
+    {
+      "c": 2,
+      "nodeCount": 10,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 79.72,
+      "averageColorChanges": 5.09,
+      "averageIterations": 43.38
+    },
+    {
+      "c": 2,
+      "nodeCount": 10,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 87.76,
+      "averageColorChanges": 4.92,
+      "averageIterations": 47.24
+    },
+    {
+      "c": 2,
+      "nodeCount": 60,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 796.32,
+      "averageColorChanges": 78.87,
+      "averageIterations": 473.56
+    },
+    {
+      "c": 2,
+      "nodeCount": 60,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 780.08,
+      "averageColorChanges": 35.58,
+      "averageIterations": 423.9
+    },
+    {
+      "c": 2,
+      "nodeCount": 60,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 1002.84,
+      "averageColorChanges": 29.49,
+      "averageIterations": 529.39
+    },
+    {
+      "c": 2,
+      "nodeCount": 60,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 1386.1,
+      "averageColorChanges": 30.15,
+      "averageIterations": 721.59
+    },
+    {
+      "c": 2,
+      "nodeCount": 60,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 1693.12,
+      "averageColorChanges": 29.2,
+      "averageIterations": 874.27
+    },
+    {
+      "c": 2,
+      "nodeCount": 60,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 2134.24,
+      "averageColorChanges": 30.39,
+      "averageIterations": 1096.08
+    },
+    {
+      "c": 2,
+      "nodeCount": 60,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 2430.86,
+      "averageColorChanges": 29.7,
+      "averageIterations": 1243.59
+    },
+    {
+      "c": 2,
+      "nodeCount": 60,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 2815.8,
+      "averageColorChanges": 29.97,
+      "averageIterations": 1436.33
+    },
+    {
+      "c": 2,
+      "nodeCount": 60,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 3146.34,
+      "averageColorChanges": 29.62,
+      "averageIterations": 1601.34
+    },
+    {
+      "c": 2,
+      "nodeCount": 60,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 3486.64,
+      "averageColorChanges": 29.45,
+      "averageIterations": 1771.36
+    },
+    {
+      "c": 2,
+      "nodeCount": 110,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 1873.44,
+      "averageColorChanges": 93.72,
+      "averageIterations": 1028.21
+    },
+    {
+      "c": 2,
+      "nodeCount": 110,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 2348.1,
+      "averageColorChanges": 55.96,
+      "averageIterations": 1228.41
+    },
+    {
+      "c": 2,
+      "nodeCount": 110,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 3514.34,
+      "averageColorChanges": 54.82,
+      "averageIterations": 1810.49
+    },
+    {
+      "c": 2,
+      "nodeCount": 110,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 4726.3,
+      "averageColorChanges": 54.9,
+      "averageIterations": 2416.58
+    },
+    {
+      "c": 2,
+      "nodeCount": 110,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 5965.5,
+      "averageColorChanges": 55.23,
+      "averageIterations": 3036.44
+    },
+    {
+      "c": 2,
+      "nodeCount": 110,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 7174.72,
+      "averageColorChanges": 55.16,
+      "averageIterations": 3641.07
+    },
+    {
+      "c": 2,
+      "nodeCount": 110,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 8217.66,
+      "averageColorChanges": 53.96,
+      "averageIterations": 4161.39
+    },
+    {
+      "c": 2,
+      "nodeCount": 110,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 9618.24,
+      "averageColorChanges": 55.36,
+      "averageIterations": 4862.91
+    },
+    {
+      "c": 2,
+      "nodeCount": 110,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 10877.16,
+      "averageColorChanges": 55.53,
+      "averageIterations": 5492.59
+    },
+    {
+      "c": 2,
+      "nodeCount": 110,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 11957.6,
+      "averageColorChanges": 54.88,
+      "averageIterations": 6032.15
+    },
+    {
+      "c": 2,
+      "nodeCount": 160,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 2658.34,
+      "averageColorChanges": 88.87,
+      "averageIterations": 1416.51
+    },
+    {
+      "c": 2,
+      "nodeCount": 160,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 4976.0,
+      "averageColorChanges": 80.25,
+      "averageIterations": 2566.75
+    },
+    {
+      "c": 2,
+      "nodeCount": 160,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 7522.7,
+      "averageColorChanges": 79.98,
+      "averageIterations": 3839.85
+    },
+    {
+      "c": 2,
+      "nodeCount": 160,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 10153.54,
+      "averageColorChanges": 80.56,
+      "averageIterations": 5155.94
+    },
+    {
+      "c": 2,
+      "nodeCount": 160,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 12712.56,
+      "averageColorChanges": 80.47,
+      "averageIterations": 6435.2
+    },
+    {
+      "c": 2,
+      "nodeCount": 160,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 15349.92,
+      "averageColorChanges": 80.86,
+      "averageIterations": 7754.29
+    },
+    {
+      "c": 2,
+      "nodeCount": 160,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 17906.62,
+      "averageColorChanges": 80.64,
+      "averageIterations": 9032.51
+    },
+    {
+      "c": 2,
+      "nodeCount": 160,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 20473.5,
+      "averageColorChanges": 80.72,
+      "averageIterations": 10315.85
+    },
+    {
+      "c": 2,
+      "nodeCount": 160,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 22871.98,
+      "averageColorChanges": 79.99,
+      "averageIterations": 11514.46
+    },
+    {
+      "c": 2,
+      "nodeCount": 160,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 25474.76,
+      "averageColorChanges": 80.11,
+      "averageIterations": 12815.99
+    },
+    {
+      "c": 2,
+      "nodeCount": 210,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 4287.92,
+      "averageColorChanges": 106.86,
+      "averageIterations": 2249.38
+    },
+    {
+      "c": 2,
+      "nodeCount": 210,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 8716.96,
+      "averageColorChanges": 106.29,
+      "averageIterations": 4463.24
+    },
+    {
+      "c": 2,
+      "nodeCount": 210,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 13214.38,
+      "averageColorChanges": 106.62,
+      "averageIterations": 6712.26
+    },
+    {
+      "c": 2,
+      "nodeCount": 210,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 17380.44,
+      "averageColorChanges": 104.64,
+      "averageIterations": 8793.47
+    },
+    {
+      "c": 2,
+      "nodeCount": 210,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 21817.84,
+      "averageColorChanges": 104.87,
+      "averageIterations": 11012.26
+    },
+    {
+      "c": 2,
+      "nodeCount": 210,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 26477.14,
+      "averageColorChanges": 105.83,
+      "averageIterations": 13342.9
+    },
+    {
+      "c": 2,
+      "nodeCount": 210,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 30628.04,
+      "averageColorChanges": 104.96,
+      "averageIterations": 15417.48
+    },
+    {
+      "c": 2,
+      "nodeCount": 210,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 35743.76,
+      "averageColorChanges": 106.98,
+      "averageIterations": 17977.42
+    },
+    {
+      "c": 2,
+      "nodeCount": 210,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 39268.24,
+      "averageColorChanges": 104.54,
+      "averageIterations": 19737.05
+    },
+    {
+      "c": 2,
+      "nodeCount": 210,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 44289.36,
+      "averageColorChanges": 105.94,
+      "averageIterations": 22249.14
+    },
+    {
+      "c": 2,
+      "nodeCount": 260,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 6438.62,
+      "averageColorChanges": 128.6,
+      "averageIterations": 3346.42
+    },
+    {
+      "c": 2,
+      "nodeCount": 260,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 13226.34,
+      "averageColorChanges": 129.76,
+      "averageIterations": 6741.4
+    },
+    {
+      "c": 2,
+      "nodeCount": 260,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 20065.22,
+      "averageColorChanges": 130.36,
+      "averageIterations": 10161.52
+    },
+    {
+      "c": 2,
+      "nodeCount": 260,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 26570.68,
+      "averageColorChanges": 129.05,
+      "averageIterations": 13412.88
+    },
+    {
+      "c": 2,
+      "nodeCount": 260,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 33462.2,
+      "averageColorChanges": 129.85,
+      "averageIterations": 16859.39
+    },
+    {
+      "c": 2,
+      "nodeCount": 260,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 40001.3,
+      "averageColorChanges": 129.03,
+      "averageIterations": 20128.19
+    },
+    {
+      "c": 2,
+      "nodeCount": 260,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 47876.54,
+      "averageColorChanges": 132.29,
+      "averageIterations": 24069.01
+    },
+    {
+      "c": 2,
+      "nodeCount": 260,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 54357.78,
+      "averageColorChanges": 131.36,
+      "averageIterations": 27308.66
+    },
+    {
+      "c": 2,
+      "nodeCount": 260,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 60612.0,
+      "averageColorChanges": 130.13,
+      "averageIterations": 30434.55
+    },
+    {
+      "c": 2,
+      "nodeCount": 260,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 67499.96,
+      "averageColorChanges": 130.26,
+      "averageIterations": 33878.79
+    },
+    {
+      "c": 2,
+      "nodeCount": 310,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 9342.7,
+      "averageColorChanges": 155.74,
+      "averageIterations": 4825.62
+    },
+    {
+      "c": 2,
+      "nodeCount": 310,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 18961.16,
+      "averageColorChanges": 155.48,
+      "averageIterations": 9634.58
+    },
+    {
+      "c": 2,
+      "nodeCount": 310,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 28648.76,
+      "averageColorChanges": 155.74,
+      "averageIterations": 14478.6
+    },
+    {
+      "c": 2,
+      "nodeCount": 310,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 38303.04,
+      "averageColorChanges": 155.65,
+      "averageIterations": 19305.67
+    },
+    {
+      "c": 2,
+      "nodeCount": 310,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 47653.98,
+      "averageColorChanges": 154.74,
+      "averageIterations": 23980.21
+    },
+    {
+      "c": 2,
+      "nodeCount": 310,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 57609.34,
+      "averageColorChanges": 155.62,
+      "averageIterations": 28958.79
+    },
+    {
+      "c": 2,
+      "nodeCount": 310,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 66443.16,
+      "averageColorChanges": 153.85,
+      "averageIterations": 33373.89
+    },
+    {
+      "c": 2,
+      "nodeCount": 310,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 76221.54,
+      "averageColorChanges": 154.3,
+      "averageIterations": 38263.51
+    },
+    {
+      "c": 2,
+      "nodeCount": 310,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 86537.88,
+      "averageColorChanges": 155.66,
+      "averageIterations": 43423.07
+    },
+    {
+      "c": 2,
+      "nodeCount": 310,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 96369.04,
+      "averageColorChanges": 155.99,
+      "averageIterations": 48338.96
+    },
+    {
+      "c": 2,
+      "nodeCount": 360,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 12550.22,
+      "averageColorChanges": 179.14,
+      "averageIterations": 6452.78
+    },
+    {
+      "c": 2,
+      "nodeCount": 360,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 25430.08,
+      "averageColorChanges": 179.13,
+      "averageIterations": 12892.71
+    },
+    {
+      "c": 2,
+      "nodeCount": 360,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 38501.74,
+      "averageColorChanges": 179.85,
+      "averageIterations": 19429.33
+    },
+    {
+      "c": 2,
+      "nodeCount": 360,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 51421.28,
+      "averageColorChanges": 179.78,
+      "averageIterations": 25889.01
+    },
+    {
+      "c": 2,
+      "nodeCount": 360,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 64407.74,
+      "averageColorChanges": 179.92,
+      "averageIterations": 32382.31
+    },
+    {
+      "c": 2,
+      "nodeCount": 360,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 78073.26,
+      "averageColorChanges": 181.52,
+      "averageIterations": 39216.7
+    },
+    {
+      "c": 2,
+      "nodeCount": 360,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 90302.62,
+      "averageColorChanges": 179.97,
+      "averageIterations": 45329.72
+    },
+    {
+      "c": 2,
+      "nodeCount": 360,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 102125.66,
+      "averageColorChanges": 177.92,
+      "averageIterations": 51239.23
+    },
+    {
+      "c": 2,
+      "nodeCount": 360,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 116294.68,
+      "averageColorChanges": 179.98,
+      "averageIterations": 58325.85
+    },
+    {
+      "c": 2,
+      "nodeCount": 360,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 130063.4,
+      "averageColorChanges": 181.08,
+      "averageIterations": 65211.35
+    },
+    {
+      "c": 2,
+      "nodeCount": 410,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 16420.46,
+      "averageColorChanges": 205.49,
+      "averageIterations": 8414.22
+    },
+    {
+      "c": 2,
+      "nodeCount": 410,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 32970.34,
+      "averageColorChanges": 203.55,
+      "averageIterations": 16687.32
+    },
+    {
+      "c": 2,
+      "nodeCount": 410,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 49611.84,
+      "averageColorChanges": 203.17,
+      "averageIterations": 25007.6
+    },
+    {
+      "c": 2,
+      "nodeCount": 410,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 66775.04,
+      "averageColorChanges": 204.94,
+      "averageIterations": 33590.92
+    },
+    {
+      "c": 2,
+      "nodeCount": 410,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 83674.1,
+      "averageColorChanges": 205.12,
+      "averageIterations": 42040.65
+    },
+    {
+      "c": 2,
+      "nodeCount": 410,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 99739.66,
+      "averageColorChanges": 203.62,
+      "averageIterations": 50071.93
+    },
+    {
+      "c": 2,
+      "nodeCount": 410,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 117506.34,
+      "averageColorChanges": 205.43,
+      "averageIterations": 58957.05
+    },
+    {
+      "c": 2,
+      "nodeCount": 410,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 134208.48,
+      "averageColorChanges": 205.19,
+      "averageIterations": 67307.93
+    },
+    {
+      "c": 2,
+      "nodeCount": 410,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 150658.2,
+      "averageColorChanges": 204.69,
+      "averageIterations": 75532.27
+    },
+    {
+      "c": 2,
+      "nodeCount": 410,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 169126.16,
+      "averageColorChanges": 206.76,
+      "averageIterations": 84768.34
+    },
+    {
+      "c": 2,
+      "nodeCount": 460,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 20565.32,
+      "averageColorChanges": 228.42,
+      "averageIterations": 10509.64
+    },
+    {
+      "c": 2,
+      "nodeCount": 460,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 41796.08,
+      "averageColorChanges": 229.75,
+      "averageIterations": 21126.27
+    },
+    {
+      "c": 2,
+      "nodeCount": 460,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 63648.24,
+      "averageColorChanges": 232.33,
+      "averageIterations": 32054.98
+    },
+    {
+      "c": 2,
+      "nodeCount": 460,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 84374.78,
+      "averageColorChanges": 230.47,
+      "averageIterations": 42416.38
+    },
+    {
+      "c": 2,
+      "nodeCount": 460,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 104982.46,
+      "averageColorChanges": 229.28,
+      "averageIterations": 52718.96
+    },
+    {
+      "c": 2,
+      "nodeCount": 460,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 126286.34,
+      "averageColorChanges": 229.55,
+      "averageIterations": 63371.21
+    },
+    {
+      "c": 2,
+      "nodeCount": 460,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 146366.24,
+      "averageColorChanges": 228.0,
+      "averageIterations": 73409.61
+    },
+    {
+      "c": 2,
+      "nodeCount": 460,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 168792.96,
+      "averageColorChanges": 229.95,
+      "averageIterations": 84624.89
+    },
+    {
+      "c": 2,
+      "nodeCount": 460,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 191825.84,
+      "averageColorChanges": 232.25,
+      "averageIterations": 96143.67
+    },
+    {
+      "c": 2,
+      "nodeCount": 460,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 210654.52,
+      "averageColorChanges": 229.47,
+      "averageIterations": 105555.23
+    },
+    {
+      "c": 3,
+      "nodeCount": 10,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 43.42,
+      "averageColorChanges": 15.27,
+      "averageIterations": 32.25
+    },
+    {
+      "c": 3,
+      "nodeCount": 10,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 39.72,
+      "averageColorChanges": 13.69,
+      "averageIterations": 29.54
+    },
+    {
+      "c": 3,
+      "nodeCount": 10,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 48.04,
+      "averageColorChanges": 11.17,
+      "averageIterations": 32.23
+    },
+    {
+      "c": 3,
+      "nodeCount": 10,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 52.08,
+      "averageColorChanges": 9.03,
+      "averageIterations": 32.65
+    },
+    {
+      "c": 3,
+      "nodeCount": 10,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 59.46,
+      "averageColorChanges": 7.67,
+      "averageIterations": 35.35
+    },
+    {
+      "c": 3,
+      "nodeCount": 10,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 66.52,
+      "averageColorChanges": 6.97,
+      "averageIterations": 38.49
+    },
+    {
+      "c": 3,
+      "nodeCount": 10,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 76.22,
+      "averageColorChanges": 6.68,
+      "averageIterations": 43.18
+    },
+    {
+      "c": 3,
+      "nodeCount": 10,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 88.9,
+      "averageColorChanges": 6.74,
+      "averageIterations": 49.46
+    },
+    {
+      "c": 3,
+      "nodeCount": 10,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 99.26,
+      "averageColorChanges": 6.64,
+      "averageIterations": 54.56
+    },
+    {
+      "c": 3,
+      "nodeCount": 10,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 111.6,
+      "averageColorChanges": 6.49,
+      "averageIterations": 60.65
+    },
+    {
+      "c": 3,
+      "nodeCount": 60,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 709.44,
+      "averageColorChanges": 71.02,
+      "averageIterations": 423.02
+    },
+    {
+      "c": 3,
+      "nodeCount": 60,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 882.52,
+      "averageColorChanges": 40.42,
+      "averageIterations": 479.95
+    },
+    {
+      "c": 3,
+      "nodeCount": 60,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 1348.68,
+      "averageColorChanges": 39.97,
+      "averageIterations": 712.63
+    },
+    {
+      "c": 3,
+      "nodeCount": 60,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 1815.16,
+      "averageColorChanges": 39.78,
+      "averageIterations": 945.69
+    },
+    {
+      "c": 3,
+      "nodeCount": 60,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 2313.16,
+      "averageColorChanges": 40.4,
+      "averageIterations": 1195.22
+    },
+    {
+      "c": 3,
+      "nodeCount": 60,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 2773.1,
+      "averageColorChanges": 40.0,
+      "averageIterations": 1424.84
+    },
+    {
+      "c": 3,
+      "nodeCount": 60,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 3219.48,
+      "averageColorChanges": 39.52,
+      "averageIterations": 1647.66
+    },
+    {
+      "c": 3,
+      "nodeCount": 60,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 3697.16,
+      "averageColorChanges": 39.74,
+      "averageIterations": 1886.64
+    },
+    {
+      "c": 3,
+      "nodeCount": 60,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 4147.02,
+      "averageColorChanges": 39.52,
+      "averageIterations": 2111.3
+    },
+    {
+      "c": 3,
+      "nodeCount": 60,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 4723.2,
+      "averageColorChanges": 40.35,
+      "averageIterations": 2400.3
+    },
+    {
+      "c": 3,
+      "nodeCount": 110,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 1588.62,
+      "averageColorChanges": 79.49,
+      "averageIterations": 872.03
+    },
+    {
+      "c": 3,
+      "nodeCount": 110,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 3076.74,
+      "averageColorChanges": 73.51,
+      "averageIterations": 1610.31
+    },
+    {
+      "c": 3,
+      "nodeCount": 110,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 4676.94,
+      "averageColorChanges": 73.36,
+      "averageIterations": 2410.16
+    },
+    {
+      "c": 3,
+      "nodeCount": 110,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 6259.14,
+      "averageColorChanges": 73.13,
+      "averageIterations": 3200.97
+    },
+    {
+      "c": 3,
+      "nodeCount": 110,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 7890.94,
+      "averageColorChanges": 73.48,
+      "averageIterations": 4017.21
+    },
+    {
+      "c": 3,
+      "nodeCount": 110,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 9428.78,
+      "averageColorChanges": 72.85,
+      "averageIterations": 4785.6
+    },
+    {
+      "c": 3,
+      "nodeCount": 110,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 11028.28,
+      "averageColorChanges": 72.95,
+      "averageIterations": 5585.37
+    },
+    {
+      "c": 3,
+      "nodeCount": 110,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 12656.74,
+      "averageColorChanges": 73.04,
+      "averageIterations": 6399.72
+    },
+    {
+      "c": 3,
+      "nodeCount": 110,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 14319.24,
+      "averageColorChanges": 73.44,
+      "averageIterations": 7231.34
+    },
+    {
+      "c": 3,
+      "nodeCount": 110,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 15841.28,
+      "averageColorChanges": 72.93,
+      "averageIterations": 7991.97
+    },
+    {
+      "c": 3,
+      "nodeCount": 160,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 3170.44,
+      "averageColorChanges": 106.01,
+      "averageIterations": 1689.62
+    },
+    {
+      "c": 3,
+      "nodeCount": 160,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 6652.2,
+      "averageColorChanges": 107.74,
+      "averageIterations": 3432.08
+    },
+    {
+      "c": 3,
+      "nodeCount": 160,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 10056.44,
+      "averageColorChanges": 107.28,
+      "averageIterations": 5133.84
+    },
+    {
+      "c": 3,
+      "nodeCount": 160,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 13487.62,
+      "averageColorChanges": 107.35,
+      "averageIterations": 6849.49
+    },
+    {
+      "c": 3,
+      "nodeCount": 160,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 16958.22,
+      "averageColorChanges": 107.66,
+      "averageIterations": 8585.15
+    },
+    {
+      "c": 3,
+      "nodeCount": 160,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 20422.88,
+      "averageColorChanges": 107.97,
+      "averageIterations": 10317.68
+    },
+    {
+      "c": 3,
+      "nodeCount": 160,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 23547.26,
+      "averageColorChanges": 106.32,
+      "averageIterations": 11878.32
+    },
+    {
+      "c": 3,
+      "nodeCount": 160,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 26927.22,
+      "averageColorChanges": 106.32,
+      "averageIterations": 13568.27
+    },
+    {
+      "c": 3,
+      "nodeCount": 160,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 30486.74,
+      "averageColorChanges": 107.0,
+      "averageIterations": 15348.62
+    },
+    {
+      "c": 3,
+      "nodeCount": 160,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 34246.92,
+      "averageColorChanges": 108.1,
+      "averageIterations": 17229.83
+    },
+    {
+      "c": 3,
+      "nodeCount": 210,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 5557.76,
+      "averageColorChanges": 139.44,
+      "averageIterations": 2916.63
+    },
+    {
+      "c": 3,
+      "nodeCount": 210,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 11374.44,
+      "averageColorChanges": 139.17,
+      "averageIterations": 5824.62
+    },
+    {
+      "c": 3,
+      "nodeCount": 210,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 17256.38,
+      "averageColorChanges": 139.46,
+      "averageIterations": 8766.07
+    },
+    {
+      "c": 3,
+      "nodeCount": 210,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 23366.36,
+      "averageColorChanges": 141.07,
+      "averageIterations": 11822.54
+    },
+    {
+      "c": 3,
+      "nodeCount": 210,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 29153.54,
+      "averageColorChanges": 140.51,
+      "averageIterations": 14715.59
+    },
+    {
+      "c": 3,
+      "nodeCount": 210,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 34853.86,
+      "averageColorChanges": 139.66,
+      "averageIterations": 17564.93
+    },
+    {
+      "c": 3,
+      "nodeCount": 210,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 40943.42,
+      "averageColorChanges": 140.51,
+      "averageIterations": 20610.62
+    },
+    {
+      "c": 3,
+      "nodeCount": 210,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 46509.2,
+      "averageColorChanges": 139.61,
+      "averageIterations": 23392.52
+    },
+    {
+      "c": 3,
+      "nodeCount": 210,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 52592.56,
+      "averageColorChanges": 140.23,
+      "averageIterations": 26434.85
+    },
+    {
+      "c": 3,
+      "nodeCount": 210,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 58965.84,
+      "averageColorChanges": 141.43,
+      "averageIterations": 29622.66
+    },
+    {
+      "c": 3,
+      "nodeCount": 260,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 8700.34,
+      "averageColorChanges": 174.38,
+      "averageIterations": 4522.78
+    },
+    {
+      "c": 3,
+      "nodeCount": 260,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 17706.56,
+      "averageColorChanges": 173.84,
+      "averageIterations": 9025.47
+    },
+    {
+      "c": 3,
+      "nodeCount": 260,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 26752.84,
+      "averageColorChanges": 174.11,
+      "averageIterations": 13548.85
+    },
+    {
+      "c": 3,
+      "nodeCount": 260,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 35450.2,
+      "averageColorChanges": 172.45,
+      "averageIterations": 17895.9
+    },
+    {
+      "c": 3,
+      "nodeCount": 260,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 44585.0,
+      "averageColorChanges": 173.06,
+      "averageIterations": 22463.93
+    },
+    {
+      "c": 3,
+      "nodeCount": 260,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 53878.14,
+      "averageColorChanges": 174.12,
+      "averageIterations": 27111.48
+    },
+    {
+      "c": 3,
+      "nodeCount": 260,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 62152.7,
+      "averageColorChanges": 172.13,
+      "averageIterations": 31246.73
+    },
+    {
+      "c": 3,
+      "nodeCount": 260,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 71980.58,
+      "averageColorChanges": 174.17,
+      "averageIterations": 36162.81
+    },
+    {
+      "c": 3,
+      "nodeCount": 260,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 80461.68,
+      "averageColorChanges": 172.92,
+      "averageIterations": 40402.15
+    },
+    {
+      "c": 3,
+      "nodeCount": 260,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 89744.72,
+      "averageColorChanges": 173.61,
+      "averageIterations": 45044.28
+    },
+    {
+      "c": 3,
+      "nodeCount": 310,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 12425.52,
+      "averageColorChanges": 207.13,
+      "averageIterations": 6418.19
+    },
+    {
+      "c": 3,
+      "nodeCount": 310,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 25250.36,
+      "averageColorChanges": 207.38,
+      "averageIterations": 12830.91
+    },
+    {
+      "c": 3,
+      "nodeCount": 310,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 37806.48,
+      "averageColorChanges": 205.77,
+      "averageIterations": 19107.34
+    },
+    {
+      "c": 3,
+      "nodeCount": 310,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 50928.08,
+      "averageColorChanges": 207.26,
+      "averageIterations": 25669.64
+    },
+    {
+      "c": 3,
+      "nodeCount": 310,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 63848.16,
+      "averageColorChanges": 207.73,
+      "averageIterations": 32130.11
+    },
+    {
+      "c": 3,
+      "nodeCount": 310,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 76090.84,
+      "averageColorChanges": 206.04,
+      "averageIterations": 38249.7
+    },
+    {
+      "c": 3,
+      "nodeCount": 310,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 88970.76,
+      "averageColorChanges": 206.34,
+      "averageIterations": 44689.96
+    },
+    {
+      "c": 3,
+      "nodeCount": 310,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 101720.12,
+      "averageColorChanges": 206.27,
+      "averageIterations": 51064.65
+    },
+    {
+      "c": 3,
+      "nodeCount": 310,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 113993.36,
+      "averageColorChanges": 205.42,
+      "averageIterations": 57200.39
+    },
+    {
+      "c": 3,
+      "nodeCount": 310,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 128579.68,
+      "averageColorChanges": 208.35,
+      "averageIterations": 64496.57
+    },
+    {
+      "c": 3,
+      "nodeCount": 360,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 16835.76,
+      "averageColorChanges": 240.68,
+      "averageIterations": 8656.96
+    },
+    {
+      "c": 3,
+      "nodeCount": 360,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 34210.76,
+      "averageColorChanges": 241.18,
+      "averageIterations": 17344.94
+    },
+    {
+      "c": 3,
+      "nodeCount": 360,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 51488.14,
+      "averageColorChanges": 240.94,
+      "averageIterations": 25983.38
+    },
+    {
+      "c": 3,
+      "nodeCount": 360,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 68582.1,
+      "averageColorChanges": 239.99,
+      "averageIterations": 34529.42
+    },
+    {
+      "c": 3,
+      "nodeCount": 360,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 85713.32,
+      "averageColorChanges": 239.76,
+      "averageIterations": 43094.7
+    },
+    {
+      "c": 3,
+      "nodeCount": 360,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 103383.5,
+      "averageColorChanges": 240.7,
+      "averageIterations": 51930.87
+    },
+    {
+      "c": 3,
+      "nodeCount": 360,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 120876.78,
+      "averageColorChanges": 241.1,
+      "averageIterations": 60677.84
+    },
+    {
+      "c": 3,
+      "nodeCount": 360,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 137928.58,
+      "averageColorChanges": 240.63,
+      "averageIterations": 69203.28
+    },
+    {
+      "c": 3,
+      "nodeCount": 360,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 155582.12,
+      "averageColorChanges": 241.11,
+      "averageIterations": 78030.55
+    },
+    {
+      "c": 3,
+      "nodeCount": 360,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 172142.72,
+      "averageColorChanges": 240.09,
+      "averageIterations": 86309.78
+    },
+    {
+      "c": 3,
+      "nodeCount": 410,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 21863.34,
+      "averageColorChanges": 273.56,
+      "averageIterations": 11203.63
+    },
+    {
+      "c": 3,
+      "nodeCount": 410,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 44173.02,
+      "averageColorChanges": 273.12,
+      "averageIterations": 22357.93
+    },
+    {
+      "c": 3,
+      "nodeCount": 410,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 66121.6,
+      "averageColorChanges": 271.29,
+      "averageIterations": 33330.45
+    },
+    {
+      "c": 3,
+      "nodeCount": 410,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 88695.54,
+      "averageColorChanges": 272.59,
+      "averageIterations": 44618.66
+    },
+    {
+      "c": 3,
+      "nodeCount": 410,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 111533.62,
+      "averageColorChanges": 273.67,
+      "averageIterations": 56038.9
+    },
+    {
+      "c": 3,
+      "nodeCount": 410,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 133856.46,
+      "averageColorChanges": 273.43,
+      "averageIterations": 67200.06
+    },
+    {
+      "c": 3,
+      "nodeCount": 410,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 155635.44,
+      "averageColorChanges": 272.47,
+      "averageIterations": 78088.51
+    },
+    {
+      "c": 3,
+      "nodeCount": 410,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 178578.48,
+      "averageColorChanges": 273.34,
+      "averageIterations": 89560.98
+    },
+    {
+      "c": 3,
+      "nodeCount": 410,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 201756.72,
+      "averageColorChanges": 274.53,
+      "averageIterations": 101151.19
+    },
+    {
+      "c": 3,
+      "nodeCount": 410,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 223275.92,
+      "averageColorChanges": 273.23,
+      "averageIterations": 111909.58
+    },
+    {
+      "c": 3,
+      "nodeCount": 460,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 27674.4,
+      "averageColorChanges": 307.95,
+      "averageIterations": 14143.48
+    },
+    {
+      "c": 3,
+      "nodeCount": 460,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 55631.4,
+      "averageColorChanges": 306.2,
+      "averageIterations": 28120.26
+    },
+    {
+      "c": 3,
+      "nodeCount": 460,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 84062.52,
+      "averageColorChanges": 307.04,
+      "averageIterations": 42336.67
+    },
+    {
+      "c": 3,
+      "nodeCount": 460,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 111915.14,
+      "averageColorChanges": 306.0,
+      "averageIterations": 56261.98
+    },
+    {
+      "c": 3,
+      "nodeCount": 460,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 139665.98,
+      "averageColorChanges": 305.35,
+      "averageIterations": 70136.58
+    },
+    {
+      "c": 3,
+      "nodeCount": 460,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 168134.3,
+      "averageColorChanges": 306.04,
+      "averageIterations": 84371.49
+    },
+    {
+      "c": 3,
+      "nodeCount": 460,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 196324.86,
+      "averageColorChanges": 306.2,
+      "averageIterations": 98466.91
+    },
+    {
+      "c": 3,
+      "nodeCount": 460,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 225132.34,
+      "averageColorChanges": 307.09,
+      "averageIterations": 112871.57
+    },
+    {
+      "c": 3,
+      "nodeCount": 460,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 253133.02,
+      "averageColorChanges": 306.82,
+      "averageIterations": 126871.63
+    },
+    {
+      "c": 3,
+      "nodeCount": 460,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 280572.8,
+      "averageColorChanges": 305.98,
+      "averageIterations": 140590.7
+    },
+    {
+      "c": 4,
+      "nodeCount": 10,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 40.06,
+      "averageColorChanges": 13.96,
+      "averageIterations": 30.07
+    },
+    {
+      "c": 4,
+      "nodeCount": 10,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 37.76,
+      "averageColorChanges": 13.08,
+      "averageIterations": 28.42
+    },
+    {
+      "c": 4,
+      "nodeCount": 10,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 47.26,
+      "averageColorChanges": 11.11,
+      "averageIterations": 32.12
+    },
+    {
+      "c": 4,
+      "nodeCount": 10,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 51.56,
+      "averageColorChanges": 9.03,
+      "averageIterations": 32.66
+    },
+    {
+      "c": 4,
+      "nodeCount": 10,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 60.92,
+      "averageColorChanges": 7.97,
+      "averageIterations": 36.55
+    },
+    {
+      "c": 4,
+      "nodeCount": 10,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 70.82,
+      "averageColorChanges": 7.53,
+      "averageIterations": 41.15
+    },
+    {
+      "c": 4,
+      "nodeCount": 10,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 85.6,
+      "averageColorChanges": 7.87,
+      "averageIterations": 48.83
+    },
+    {
+      "c": 4,
+      "nodeCount": 10,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 99.9,
+      "averageColorChanges": 7.69,
+      "averageIterations": 55.88
+    },
+    {
+      "c": 4,
+      "nodeCount": 10,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 110.16,
+      "averageColorChanges": 7.46,
+      "averageIterations": 60.81
+    },
+    {
+      "c": 4,
+      "nodeCount": 10,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 122.64,
+      "averageColorChanges": 7.25,
+      "averageIterations": 66.86
+    },
+    {
+      "c": 4,
+      "nodeCount": 60,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 602.48,
+      "averageColorChanges": 60.89,
+      "averageIterations": 359.84
+    },
+    {
+      "c": 4,
+      "nodeCount": 60,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 981.84,
+      "averageColorChanges": 45.01,
+      "averageIterations": 534.11
+    },
+    {
+      "c": 4,
+      "nodeCount": 60,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 1514.86,
+      "averageColorChanges": 45.08,
+      "averageIterations": 800.72
+    },
+    {
+      "c": 4,
+      "nodeCount": 60,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 2045.72,
+      "averageColorChanges": 45.1,
+      "averageIterations": 1066.17
+    },
+    {
+      "c": 4,
+      "nodeCount": 60,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 2553.8,
+      "averageColorChanges": 44.55,
+      "averageIterations": 1319.66
+    },
+    {
+      "c": 4,
+      "nodeCount": 60,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 3098.1,
+      "averageColorChanges": 44.66,
+      "averageIterations": 1592.02
+    },
+    {
+      "c": 4,
+      "nodeCount": 60,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 3667.78,
+      "averageColorChanges": 45.28,
+      "averageIterations": 1877.37
+    },
+    {
+      "c": 4,
+      "nodeCount": 60,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 4215.24,
+      "averageColorChanges": 45.24,
+      "averageIterations": 2151.2
+    },
+    {
+      "c": 4,
+      "nodeCount": 60,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 4746.08,
+      "averageColorChanges": 45.26,
+      "averageIterations": 2416.56
+    },
+    {
+      "c": 4,
+      "nodeCount": 60,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5184.88,
+      "averageColorChanges": 44.45,
+      "averageIterations": 2635.12
+    },
+    {
+      "c": 4,
+      "nodeCount": 110,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 1673.34,
+      "averageColorChanges": 83.82,
+      "averageIterations": 918.72
+    },
+    {
+      "c": 4,
+      "nodeCount": 110,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 3439.78,
+      "averageColorChanges": 82.32,
+      "averageIterations": 1800.53
+    },
+    {
+      "c": 4,
+      "nodeCount": 110,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 5213.2,
+      "averageColorChanges": 81.97,
+      "averageIterations": 2686.78
+    },
+    {
+      "c": 4,
+      "nodeCount": 110,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 7035.62,
+      "averageColorChanges": 82.35,
+      "averageIterations": 3598.37
+    },
+    {
+      "c": 4,
+      "nodeCount": 110,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 8883.8,
+      "averageColorChanges": 82.7,
+      "averageIterations": 4522.91
+    },
+    {
+      "c": 4,
+      "nodeCount": 110,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 10736.18,
+      "averageColorChanges": 83.09,
+      "averageIterations": 5449.4
+    },
+    {
+      "c": 4,
+      "nodeCount": 110,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 12496.28,
+      "averageColorChanges": 82.63,
+      "averageIterations": 6329.04
+    },
+    {
+      "c": 4,
+      "nodeCount": 110,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 14265.62,
+      "averageColorChanges": 82.47,
+      "averageIterations": 7213.56
+    },
+    {
+      "c": 4,
+      "nodeCount": 110,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 16074.34,
+      "averageColorChanges": 82.54,
+      "averageIterations": 8117.94
+    },
+    {
+      "c": 4,
+      "nodeCount": 110,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 18100.64,
+      "averageColorChanges": 83.58,
+      "averageIterations": 9132.11
+    },
+    {
+      "c": 4,
+      "nodeCount": 160,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 3590.74,
+      "averageColorChanges": 120.04,
+      "averageIterations": 1913.71
+    },
+    {
+      "c": 4,
+      "nodeCount": 160,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 7377.8,
+      "averageColorChanges": 119.35,
+      "averageIterations": 3806.52
+    },
+    {
+      "c": 4,
+      "nodeCount": 160,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 11201.3,
+      "averageColorChanges": 119.64,
+      "averageIterations": 5718.58
+    },
+    {
+      "c": 4,
+      "nodeCount": 160,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 15148.32,
+      "averageColorChanges": 120.91,
+      "averageIterations": 7693.26
+    },
+    {
+      "c": 4,
+      "nodeCount": 160,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 18918.78,
+      "averageColorChanges": 120.14,
+      "averageIterations": 9577.75
+    },
+    {
+      "c": 4,
+      "nodeCount": 160,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 22672.24,
+      "averageColorChanges": 119.7,
+      "averageIterations": 11454.15
+    },
+    {
+      "c": 4,
+      "nodeCount": 160,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 26561.12,
+      "averageColorChanges": 120.14,
+      "averageIterations": 13398.96
+    },
+    {
+      "c": 4,
+      "nodeCount": 160,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 30182.48,
+      "averageColorChanges": 119.3,
+      "averageIterations": 15208.82
+    },
+    {
+      "c": 4,
+      "nodeCount": 160,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 34413.3,
+      "averageColorChanges": 120.83,
+      "averageIterations": 17325.74
+    },
+    {
+      "c": 4,
+      "nodeCount": 160,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 38073.68,
+      "averageColorChanges": 120.19,
+      "averageIterations": 19155.32
+    },
+    {
+      "c": 4,
+      "nodeCount": 210,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 6287.2,
+      "averageColorChanges": 157.73,
+      "averageIterations": 3299.58
+    },
+    {
+      "c": 4,
+      "nodeCount": 210,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 12915.34,
+      "averageColorChanges": 157.96,
+      "averageIterations": 6613.9
+    },
+    {
+      "c": 4,
+      "nodeCount": 210,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 19476.48,
+      "averageColorChanges": 157.54,
+      "averageIterations": 9894.05
+    },
+    {
+      "c": 4,
+      "nodeCount": 210,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 25994.56,
+      "averageColorChanges": 157.04,
+      "averageIterations": 13152.6
+    },
+    {
+      "c": 4,
+      "nodeCount": 210,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 32610.52,
+      "averageColorChanges": 157.32,
+      "averageIterations": 16460.8
+    },
+    {
+      "c": 4,
+      "nodeCount": 210,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 39230.78,
+      "averageColorChanges": 157.38,
+      "averageIterations": 19771.07
+    },
+    {
+      "c": 4,
+      "nodeCount": 210,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 45728.72,
+      "averageColorChanges": 157.17,
+      "averageIterations": 23019.73
+    },
+    {
+      "c": 4,
+      "nodeCount": 210,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 52586.28,
+      "averageColorChanges": 157.94,
+      "averageIterations": 26449.33
+    },
+    {
+      "c": 4,
+      "nodeCount": 210,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 58499.64,
+      "averageColorChanges": 156.01,
+      "averageIterations": 29404.15
+    },
+    {
+      "c": 4,
+      "nodeCount": 210,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 65754.96,
+      "averageColorChanges": 157.81,
+      "averageIterations": 33033.54
+    },
+    {
+      "c": 4,
+      "nodeCount": 260,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 9735.34,
+      "averageColorChanges": 195.31,
+      "averageIterations": 5061.27
+    },
+    {
+      "c": 4,
+      "nodeCount": 260,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 19854.66,
+      "averageColorChanges": 195.1,
+      "averageIterations": 10120.66
+    },
+    {
+      "c": 4,
+      "nodeCount": 260,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 30210.46,
+      "averageColorChanges": 196.48,
+      "averageIterations": 15299.99
+    },
+    {
+      "c": 4,
+      "nodeCount": 260,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 40221.08,
+      "averageColorChanges": 195.75,
+      "averageIterations": 20304.55
+    },
+    {
+      "c": 4,
+      "nodeCount": 260,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 50207.48,
+      "averageColorChanges": 195.02,
+      "averageIterations": 25297.05
+    },
+    {
+      "c": 4,
+      "nodeCount": 260,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 60444.6,
+      "averageColorChanges": 195.52,
+      "averageIterations": 30416.08
+    },
+    {
+      "c": 4,
+      "nodeCount": 260,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 70316.46,
+      "averageColorChanges": 194.74,
+      "averageIterations": 35351.28
+    },
+    {
+      "c": 4,
+      "nodeCount": 260,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 80952.12,
+      "averageColorChanges": 196.08,
+      "averageIterations": 40670.35
+    },
+    {
+      "c": 4,
+      "nodeCount": 260,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 90456.42,
+      "averageColorChanges": 194.61,
+      "averageIterations": 45421.04
+    },
+    {
+      "c": 4,
+      "nodeCount": 260,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 100740.68,
+      "averageColorChanges": 194.99,
+      "averageIterations": 50563.57
+    },
+    {
+      "c": 4,
+      "nodeCount": 310,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 13907.72,
+      "averageColorChanges": 232.15,
+      "averageIterations": 7184.28
+    },
+    {
+      "c": 4,
+      "nodeCount": 310,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 28096.34,
+      "averageColorChanges": 230.63,
+      "averageIterations": 14277.14
+    },
+    {
+      "c": 4,
+      "nodeCount": 310,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 42646.72,
+      "averageColorChanges": 232.29,
+      "averageIterations": 21553.9
+    },
+    {
+      "c": 4,
+      "nodeCount": 310,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 57134.28,
+      "averageColorChanges": 232.64,
+      "averageIterations": 28798.06
+    },
+    {
+      "c": 4,
+      "nodeCount": 310,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 71433.38,
+      "averageColorChanges": 232.46,
+      "averageIterations": 35947.38
+    },
+    {
+      "c": 4,
+      "nodeCount": 310,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 85920.98,
+      "averageColorChanges": 232.63,
+      "averageIterations": 43191.43
+    },
+    {
+      "c": 4,
+      "nodeCount": 310,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 101085.14,
+      "averageColorChanges": 234.4,
+      "averageIterations": 50775.3
+    },
+    {
+      "c": 4,
+      "nodeCount": 310,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 114610.22,
+      "averageColorChanges": 232.56,
+      "averageIterations": 57535.86
+    },
+    {
+      "c": 4,
+      "nodeCount": 310,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 128798.52,
+      "averageColorChanges": 232.15,
+      "averageIterations": 64629.65
+    },
+    {
+      "c": 4,
+      "nodeCount": 310,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 143098.8,
+      "averageColorChanges": 232.08,
+      "averageIterations": 71779.7
+    },
+    {
+      "c": 4,
+      "nodeCount": 360,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 18764.5,
+      "averageColorChanges": 268.47,
+      "averageIterations": 9649.01
+    },
+    {
+      "c": 4,
+      "nodeCount": 360,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 38345.3,
+      "averageColorChanges": 270.44,
+      "averageIterations": 19441.36
+    },
+    {
+      "c": 4,
+      "nodeCount": 360,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 57512.3,
+      "averageColorChanges": 269.27,
+      "averageIterations": 29023.69
+    },
+    {
+      "c": 4,
+      "nodeCount": 360,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 77046.12,
+      "averageColorChanges": 269.95,
+      "averageIterations": 38791.23
+    },
+    {
+      "c": 4,
+      "nodeCount": 360,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 96295.18,
+      "averageColorChanges": 269.61,
+      "averageIterations": 48415.43
+    },
+    {
+      "c": 4,
+      "nodeCount": 360,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 116539.8,
+      "averageColorChanges": 271.5,
+      "averageIterations": 58539.69
+    },
+    {
+      "c": 4,
+      "nodeCount": 360,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 135356.66,
+      "averageColorChanges": 270.06,
+      "averageIterations": 67946.71
+    },
+    {
+      "c": 4,
+      "nodeCount": 360,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 154725.14,
+      "averageColorChanges": 270.01,
+      "averageIterations": 77630.85
+    },
+    {
+      "c": 4,
+      "nodeCount": 360,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 173905.0,
+      "averageColorChanges": 269.77,
+      "averageIterations": 87220.45
+    },
+    {
+      "c": 4,
+      "nodeCount": 360,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 193737.28,
+      "averageColorChanges": 270.35,
+      "averageIterations": 97137.22
+    },
+    {
+      "c": 4,
+      "nodeCount": 410,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 24535.94,
+      "averageColorChanges": 307.2,
+      "averageIterations": 12573.39
+    },
+    {
+      "c": 4,
+      "nodeCount": 410,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 49782.26,
+      "averageColorChanges": 307.83,
+      "averageIterations": 25197.16
+    },
+    {
+      "c": 4,
+      "nodeCount": 410,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 75170.76,
+      "averageColorChanges": 308.7,
+      "averageIterations": 37892.29
+    },
+    {
+      "c": 4,
+      "nodeCount": 410,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 100093.38,
+      "averageColorChanges": 307.59,
+      "averageIterations": 50352.48
+    },
+    {
+      "c": 4,
+      "nodeCount": 410,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 124993.62,
+      "averageColorChanges": 306.92,
+      "averageIterations": 62801.92
+    },
+    {
+      "c": 4,
+      "nodeCount": 410,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 150937.82,
+      "averageColorChanges": 308.38,
+      "averageIterations": 75775.66
+    },
+    {
+      "c": 4,
+      "nodeCount": 410,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 175084.46,
+      "averageColorChanges": 306.6,
+      "averageIterations": 87847.09
+    },
+    {
+      "c": 4,
+      "nodeCount": 410,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 200374.68,
+      "averageColorChanges": 306.83,
+      "averageIterations": 100492.49
+    },
+    {
+      "c": 4,
+      "nodeCount": 410,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 226218.96,
+      "averageColorChanges": 307.86,
+      "averageIterations": 113415.6
+    },
+    {
+      "c": 4,
+      "nodeCount": 410,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 250106.0,
+      "averageColorChanges": 306.2,
+      "averageIterations": 125357.5
+    },
+    {
+      "c": 4,
+      "nodeCount": 460,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 31035.48,
+      "averageColorChanges": 345.3,
+      "averageIterations": 15861.32
+    },
+    {
+      "c": 4,
+      "nodeCount": 460,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 62583.56,
+      "averageColorChanges": 344.27,
+      "averageIterations": 31634.31
+    },
+    {
+      "c": 4,
+      "nodeCount": 460,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 94421.28,
+      "averageColorChanges": 345.01,
+      "averageIterations": 47553.99
+    },
+    {
+      "c": 4,
+      "nodeCount": 460,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 126863.54,
+      "averageColorChanges": 347.21,
+      "averageIterations": 63777.17
+    },
+    {
+      "c": 4,
+      "nodeCount": 460,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 158011.4,
+      "averageColorChanges": 345.43,
+      "averageIterations": 79349.46
+    },
+    {
+      "c": 4,
+      "nodeCount": 460,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 189724.24,
+      "averageColorChanges": 345.39,
+      "averageIterations": 95205.81
+    },
+    {
+      "c": 4,
+      "nodeCount": 460,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 221684.74,
+      "averageColorChanges": 345.78,
+      "averageIterations": 111186.42
+    },
+    {
+      "c": 4,
+      "nodeCount": 460,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 253051.22,
+      "averageColorChanges": 345.2,
+      "averageIterations": 126869.14
+    },
+    {
+      "c": 4,
+      "nodeCount": 460,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 283654.82,
+      "averageColorChanges": 343.95,
+      "averageIterations": 142169.56
+    },
+    {
+      "c": 4,
+      "nodeCount": 460,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 316534.96,
+      "averageColorChanges": 345.23,
+      "averageIterations": 158611.04
+    },
+    {
+      "c": 5,
+      "nodeCount": 10,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 36.9,
+      "averageColorChanges": 12.84,
+      "averageIterations": 27.96
+    },
+    {
+      "c": 5,
+      "nodeCount": 10,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 36.64,
+      "averageColorChanges": 13.01,
+      "averageIterations": 27.84
+    },
+    {
+      "c": 5,
+      "nodeCount": 10,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 43.34,
+      "averageColorChanges": 10.26,
+      "averageIterations": 29.49
+    },
+    {
+      "c": 5,
+      "nodeCount": 10,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 51.04,
+      "averageColorChanges": 8.92,
+      "averageIterations": 32.45
+    },
+    {
+      "c": 5,
+      "nodeCount": 10,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 63.8,
+      "averageColorChanges": 8.33,
+      "averageIterations": 38.4
+    },
+    {
+      "c": 5,
+      "nodeCount": 10,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 74.14,
+      "averageColorChanges": 7.97,
+      "averageIterations": 43.27
+    },
+    {
+      "c": 5,
+      "nodeCount": 10,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 86.9,
+      "averageColorChanges": 8.03,
+      "averageIterations": 49.64
+    },
+    {
+      "c": 5,
+      "nodeCount": 10,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 102.18,
+      "averageColorChanges": 7.89,
+      "averageIterations": 57.16
+    },
+    {
+      "c": 5,
+      "nodeCount": 10,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 115.34,
+      "averageColorChanges": 7.88,
+      "averageIterations": 63.77
+    },
+    {
+      "c": 5,
+      "nodeCount": 10,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 136.24,
+      "averageColorChanges": 8.17,
+      "averageIterations": 74.51
+    },
+    {
+      "c": 5,
+      "nodeCount": 60,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 597.86,
+      "averageColorChanges": 60.11,
+      "averageIterations": 356.8
+    },
+    {
+      "c": 5,
+      "nodeCount": 60,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 1047.3,
+      "averageColorChanges": 48.17,
+      "averageIterations": 570.02
+    },
+    {
+      "c": 5,
+      "nodeCount": 60,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 1599.74,
+      "averageColorChanges": 47.58,
+      "averageIterations": 845.7
+    },
+    {
+      "c": 5,
+      "nodeCount": 60,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 2171.38,
+      "averageColorChanges": 47.8,
+      "averageIterations": 1131.72
+    },
+    {
+      "c": 5,
+      "nodeCount": 60,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 2747.32,
+      "averageColorChanges": 47.96,
+      "averageIterations": 1419.84
+    },
+    {
+      "c": 5,
+      "nodeCount": 60,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 3290.66,
+      "averageColorChanges": 47.59,
+      "averageIterations": 1691.12
+    },
+    {
+      "c": 5,
+      "nodeCount": 60,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 3900.92,
+      "averageColorChanges": 48.19,
+      "averageIterations": 1996.81
+    },
+    {
+      "c": 5,
+      "nodeCount": 60,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 4462.3,
+      "averageColorChanges": 48.1,
+      "averageIterations": 2277.41
+    },
+    {
+      "c": 5,
+      "nodeCount": 60,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5008.5,
+      "averageColorChanges": 47.82,
+      "averageIterations": 2550.27
+    },
+    {
+      "c": 5,
+      "nodeCount": 60,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5610.6,
+      "averageColorChanges": 48.17,
+      "averageIterations": 2851.65
+    },
+    {
+      "c": 5,
+      "nodeCount": 110,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 1763.32,
+      "averageColorChanges": 88.49,
+      "averageIterations": 968.36
+    },
+    {
+      "c": 5,
+      "nodeCount": 110,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 3688.84,
+      "averageColorChanges": 88.33,
+      "averageIterations": 1930.92
+    },
+    {
+      "c": 5,
+      "nodeCount": 110,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 5622.9,
+      "averageColorChanges": 88.31,
+      "averageIterations": 2897.97
+    },
+    {
+      "c": 5,
+      "nodeCount": 110,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 7457.82,
+      "averageColorChanges": 87.18,
+      "averageIterations": 3814.36
+    },
+    {
+      "c": 5,
+      "nodeCount": 110,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 9395.48,
+      "averageColorChanges": 87.59,
+      "averageIterations": 4783.54
+    },
+    {
+      "c": 5,
+      "nodeCount": 110,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 11439.78,
+      "averageColorChanges": 88.57,
+      "averageIterations": 5806.67
+    },
+    {
+      "c": 5,
+      "nodeCount": 110,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 13173.56,
+      "averageColorChanges": 87.2,
+      "averageIterations": 6672.21
+    },
+    {
+      "c": 5,
+      "nodeCount": 110,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 15230.24,
+      "averageColorChanges": 88.13,
+      "averageIterations": 7701.45
+    },
+    {
+      "c": 5,
+      "nodeCount": 110,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 17151.78,
+      "averageColorChanges": 88.07,
+      "averageIterations": 8662.21
+    },
+    {
+      "c": 5,
+      "nodeCount": 110,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 19051.04,
+      "averageColorChanges": 88.02,
+      "averageIterations": 9611.71
+    },
+    {
+      "c": 5,
+      "nodeCount": 160,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 3842.96,
+      "averageColorChanges": 128.78,
+      "averageIterations": 2048.47
+    },
+    {
+      "c": 5,
+      "nodeCount": 160,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 7945.16,
+      "averageColorChanges": 128.73,
+      "averageIterations": 4099.48
+    },
+    {
+      "c": 5,
+      "nodeCount": 160,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 12087.04,
+      "averageColorChanges": 129.17,
+      "averageIterations": 6170.91
+    },
+    {
+      "c": 5,
+      "nodeCount": 160,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 16030.1,
+      "averageColorChanges": 127.74,
+      "averageIterations": 8141.0
+    },
+    {
+      "c": 5,
+      "nodeCount": 160,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 20198.66,
+      "averageColorChanges": 128.51,
+      "averageIterations": 10225.99
+    },
+    {
+      "c": 5,
+      "nodeCount": 160,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 24187.84,
+      "averageColorChanges": 127.87,
+      "averageIterations": 12220.01
+    },
+    {
+      "c": 5,
+      "nodeCount": 160,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 28221.06,
+      "averageColorChanges": 127.68,
+      "averageIterations": 14236.42
+    },
+    {
+      "c": 5,
+      "nodeCount": 160,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 32377.86,
+      "averageColorChanges": 127.97,
+      "averageIterations": 16315.17
+    },
+    {
+      "c": 5,
+      "nodeCount": 160,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 36310.02,
+      "averageColorChanges": 127.6,
+      "averageIterations": 18280.77
+    },
+    {
+      "c": 5,
+      "nodeCount": 160,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 40405.76,
+      "averageColorChanges": 127.7,
+      "averageIterations": 20328.74
+    },
+    {
+      "c": 5,
+      "nodeCount": 210,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 6635.3,
+      "averageColorChanges": 166.57,
+      "averageIterations": 3482.4
+    },
+    {
+      "c": 5,
+      "nodeCount": 210,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 13790.62,
+      "averageColorChanges": 168.78,
+      "averageIterations": 7062.26
+    },
+    {
+      "c": 5,
+      "nodeCount": 210,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 20681.06,
+      "averageColorChanges": 167.34,
+      "averageIterations": 10506.11
+    },
+    {
+      "c": 5,
+      "nodeCount": 210,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 27774.48,
+      "averageColorChanges": 167.9,
+      "averageIterations": 14053.32
+    },
+    {
+      "c": 5,
+      "nodeCount": 210,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 34987.78,
+      "averageColorChanges": 168.73,
+      "averageIterations": 17660.85
+    },
+    {
+      "c": 5,
+      "nodeCount": 210,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 41799.5,
+      "averageColorChanges": 167.75,
+      "averageIterations": 21065.75
+    },
+    {
+      "c": 5,
+      "nodeCount": 210,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 49054.64,
+      "averageColorChanges": 168.6,
+      "averageIterations": 24694.12
+    },
+    {
+      "c": 5,
+      "nodeCount": 210,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 55972.76,
+      "averageColorChanges": 168.15,
+      "averageIterations": 28152.75
+    },
+    {
+      "c": 5,
+      "nodeCount": 210,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 63136.92,
+      "averageColorChanges": 168.51,
+      "averageIterations": 31735.18
+    },
+    {
+      "c": 5,
+      "nodeCount": 210,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 70260.24,
+      "averageColorChanges": 168.66,
+      "averageIterations": 35297.01
+    },
+    {
+      "c": 5,
+      "nodeCount": 260,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 10392.34,
+      "averageColorChanges": 208.26,
+      "averageIterations": 5402.67
+    },
+    {
+      "c": 5,
+      "nodeCount": 260,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 21047.74,
+      "averageColorChanges": 206.98,
+      "averageIterations": 10729.03
+    },
+    {
+      "c": 5,
+      "nodeCount": 260,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 32005.82,
+      "averageColorChanges": 208.37,
+      "averageIterations": 16209.47
+    },
+    {
+      "c": 5,
+      "nodeCount": 260,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 42764.76,
+      "averageColorChanges": 208.29,
+      "averageIterations": 21588.82
+    },
+    {
+      "c": 5,
+      "nodeCount": 260,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 53495.7,
+      "averageColorChanges": 207.86,
+      "averageIterations": 26953.97
+    },
+    {
+      "c": 5,
+      "nodeCount": 260,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 64432.74,
+      "averageColorChanges": 208.42,
+      "averageIterations": 32423.0
+    },
+    {
+      "c": 5,
+      "nodeCount": 260,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 75097.58,
+      "averageColorChanges": 208.04,
+      "averageIterations": 37755.05
+    },
+    {
+      "c": 5,
+      "nodeCount": 260,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 85439.36,
+      "averageColorChanges": 207.02,
+      "averageIterations": 42924.84
+    },
+    {
+      "c": 5,
+      "nodeCount": 260,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 96684.36,
+      "averageColorChanges": 208.07,
+      "averageIterations": 48548.46
+    },
+    {
+      "c": 5,
+      "nodeCount": 260,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 107226.8,
+      "averageColorChanges": 207.61,
+      "averageIterations": 53819.2
+    },
+    {
+      "c": 5,
+      "nodeCount": 310,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 14750.42,
+      "averageColorChanges": 246.46,
+      "averageIterations": 7619.84
+    },
+    {
+      "c": 5,
+      "nodeCount": 310,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 30165.24,
+      "averageColorChanges": 247.82,
+      "averageIterations": 15328.68
+    },
+    {
+      "c": 5,
+      "nodeCount": 310,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 45432.34,
+      "averageColorChanges": 247.56,
+      "averageIterations": 22961.95
+    },
+    {
+      "c": 5,
+      "nodeCount": 310,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 60536.98,
+      "averageColorChanges": 246.7,
+      "averageIterations": 30513.42
+    },
+    {
+      "c": 5,
+      "nodeCount": 310,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 76090.5,
+      "averageColorChanges": 247.58,
+      "averageIterations": 38291.07
+    },
+    {
+      "c": 5,
+      "nodeCount": 310,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 91880.28,
+      "averageColorChanges": 248.96,
+      "averageIterations": 46187.33
+    },
+    {
+      "c": 5,
+      "nodeCount": 310,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 106973.72,
+      "averageColorChanges": 248.24,
+      "averageIterations": 53733.31
+    },
+    {
+      "c": 5,
+      "nodeCount": 310,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 122462.56,
+      "averageColorChanges": 248.52,
+      "averageIterations": 61478.02
+    },
+    {
+      "c": 5,
+      "nodeCount": 310,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 136874.6,
+      "averageColorChanges": 246.79,
+      "averageIterations": 68682.28
+    },
+    {
+      "c": 5,
+      "nodeCount": 310,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 153349.04,
+      "averageColorChanges": 248.77,
+      "averageIterations": 76921.46
+    },
+    {
+      "c": 5,
+      "nodeCount": 360,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 20089.48,
+      "averageColorChanges": 287.5,
+      "averageIterations": 10330.44
+    },
+    {
+      "c": 5,
+      "nodeCount": 360,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 40554.46,
+      "averageColorChanges": 286.12,
+      "averageIterations": 20561.54
+    },
+    {
+      "c": 5,
+      "nodeCount": 360,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 61538.14,
+      "averageColorChanges": 288.26,
+      "averageIterations": 31055.5
+    },
+    {
+      "c": 5,
+      "nodeCount": 360,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 82149.54,
+      "averageColorChanges": 287.67,
+      "averageIterations": 41360.7
+    },
+    {
+      "c": 5,
+      "nodeCount": 360,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 102686.1,
+      "averageColorChanges": 287.38,
+      "averageIterations": 51628.68
+    },
+    {
+      "c": 5,
+      "nodeCount": 360,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 123656.64,
+      "averageColorChanges": 288.18,
+      "averageIterations": 62114.69
+    },
+    {
+      "c": 5,
+      "nodeCount": 360,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 143843.88,
+      "averageColorChanges": 287.08,
+      "averageIterations": 72207.26
+    },
+    {
+      "c": 5,
+      "nodeCount": 360,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 164728.98,
+      "averageColorChanges": 287.64,
+      "averageIterations": 82650.3
+    },
+    {
+      "c": 5,
+      "nodeCount": 360,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 184861.66,
+      "averageColorChanges": 286.74,
+      "averageIterations": 92715.8
+    },
+    {
+      "c": 5,
+      "nodeCount": 360,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 205794.72,
+      "averageColorChanges": 287.16,
+      "averageIterations": 103182.78
+    },
+    {
+      "c": 5,
+      "nodeCount": 410,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 26228.98,
+      "averageColorChanges": 328.4,
+      "averageIterations": 13441.06
+    },
+    {
+      "c": 5,
+      "nodeCount": 410,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 53046.98,
+      "averageColorChanges": 327.91,
+      "averageIterations": 26849.66
+    },
+    {
+      "c": 5,
+      "nodeCount": 410,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 80391.6,
+      "averageColorChanges": 330.15,
+      "averageIterations": 40524.12
+    },
+    {
+      "c": 5,
+      "nodeCount": 410,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 107030.6,
+      "averageColorChanges": 328.94,
+      "averageIterations": 53842.48
+    },
+    {
+      "c": 5,
+      "nodeCount": 410,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 133481.48,
+      "averageColorChanges": 327.71,
+      "averageIterations": 67066.61
+    },
+    {
+      "c": 5,
+      "nodeCount": 410,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 160744.12,
+      "averageColorChanges": 328.74,
+      "averageIterations": 80698.91
+    },
+    {
+      "c": 5,
+      "nodeCount": 410,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 187087.44,
+      "averageColorChanges": 327.76,
+      "averageIterations": 93869.63
+    },
+    {
+      "c": 5,
+      "nodeCount": 410,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 213221.36,
+      "averageColorChanges": 326.6,
+      "averageIterations": 106935.51
+    },
+    {
+      "c": 5,
+      "nodeCount": 410,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 241316.34,
+      "averageColorChanges": 328.51,
+      "averageIterations": 120984.84
+    },
+    {
+      "c": 5,
+      "nodeCount": 410,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 267486.8,
+      "averageColorChanges": 327.63,
+      "averageIterations": 134069.2
+    },
+    {
+      "c": 5,
+      "nodeCount": 460,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 33114.2,
+      "averageColorChanges": 368.32,
+      "averageIterations": 16923.7
+    },
+    {
+      "c": 5,
+      "nodeCount": 460,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 66972.32,
+      "averageColorChanges": 368.56,
+      "averageIterations": 33852.96
+    },
+    {
+      "c": 5,
+      "nodeCount": 460,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 100991.4,
+      "averageColorChanges": 369.28,
+      "averageIterations": 50863.15
+    },
+    {
+      "c": 5,
+      "nodeCount": 460,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 133531.76,
+      "averageColorChanges": 365.45,
+      "averageIterations": 67129.52
+    },
+    {
+      "c": 5,
+      "nodeCount": 460,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 168040.1,
+      "averageColorChanges": 367.57,
+      "averageIterations": 84385.74
+    },
+    {
+      "c": 5,
+      "nodeCount": 460,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 201605.22,
+      "averageColorChanges": 367.16,
+      "averageIterations": 101167.92
+    },
+    {
+      "c": 5,
+      "nodeCount": 460,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 235347.5,
+      "averageColorChanges": 367.26,
+      "averageIterations": 118039.13
+    },
+    {
+      "c": 5,
+      "nodeCount": 460,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 268727.94,
+      "averageColorChanges": 366.68,
+      "averageIterations": 134728.89
+    },
+    {
+      "c": 5,
+      "nodeCount": 460,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 304253.3,
+      "averageColorChanges": 369.01,
+      "averageIterations": 152493.8
+    },
+    {
+      "c": 5,
+      "nodeCount": 460,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 336604.52,
+      "averageColorChanges": 367.32,
+      "averageIterations": 168667.73
+    },
+    {
+      "c": 6,
+      "nodeCount": 10,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 35.98,
+      "averageColorChanges": 12.82,
+      "averageIterations": 27.5
+    },
+    {
+      "c": 6,
+      "nodeCount": 10,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 35.16,
+      "averageColorChanges": 12.46,
+      "averageIterations": 26.82
+    },
+    {
+      "c": 6,
+      "nodeCount": 10,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 45.42,
+      "averageColorChanges": 10.87,
+      "averageIterations": 31.05
+    },
+    {
+      "c": 6,
+      "nodeCount": 10,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 49.68,
+      "averageColorChanges": 8.83,
+      "averageIterations": 31.67
+    },
+    {
+      "c": 6,
+      "nodeCount": 10,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 65.96,
+      "averageColorChanges": 8.7,
+      "averageIterations": 39.79
+    },
+    {
+      "c": 6,
+      "nodeCount": 10,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 76.64,
+      "averageColorChanges": 8.38,
+      "averageIterations": 44.84
+    },
+    {
+      "c": 6,
+      "nodeCount": 10,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 90.84,
+      "averageColorChanges": 8.37,
+      "averageIterations": 51.96
+    },
+    {
+      "c": 6,
+      "nodeCount": 10,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 107.08,
+      "averageColorChanges": 8.4,
+      "averageIterations": 60.03
+    },
+    {
+      "c": 6,
+      "nodeCount": 10,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 121.46,
+      "averageColorChanges": 8.42,
+      "averageIterations": 67.28
+    },
+    {
+      "c": 6,
+      "nodeCount": 10,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 136.08,
+      "averageColorChanges": 8.22,
+      "averageIterations": 74.42
+    },
+    {
+      "c": 6,
+      "nodeCount": 60,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 559.08,
+      "averageColorChanges": 56.27,
+      "averageIterations": 333.84
+    },
+    {
+      "c": 6,
+      "nodeCount": 60,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 1082.54,
+      "averageColorChanges": 49.8,
+      "averageIterations": 589.24
+    },
+    {
+      "c": 6,
+      "nodeCount": 60,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 1685.14,
+      "averageColorChanges": 50.22,
+      "averageIterations": 890.98
+    },
+    {
+      "c": 6,
+      "nodeCount": 60,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 2270.12,
+      "averageColorChanges": 50.02,
+      "averageIterations": 1183.23
+    },
+    {
+      "c": 6,
+      "nodeCount": 60,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 2886.02,
+      "averageColorChanges": 50.37,
+      "averageIterations": 1491.56
+    },
+    {
+      "c": 6,
+      "nodeCount": 60,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 3469.6,
+      "averageColorChanges": 50.24,
+      "averageIterations": 1783.17
+    },
+    {
+      "c": 6,
+      "nodeCount": 60,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 4067.82,
+      "averageColorChanges": 50.23,
+      "averageIterations": 2082.32
+    },
+    {
+      "c": 6,
+      "nodeCount": 60,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 4647.2,
+      "averageColorChanges": 50.14,
+      "averageIterations": 2371.91
+    },
+    {
+      "c": 6,
+      "nodeCount": 60,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5213.26,
+      "averageColorChanges": 49.91,
+      "averageIterations": 2654.66
+    },
+    {
+      "c": 6,
+      "nodeCount": 60,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5849.56,
+      "averageColorChanges": 50.29,
+      "averageIterations": 2973.19
+    },
+    {
+      "c": 6,
+      "nodeCount": 110,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 1826.34,
+      "averageColorChanges": 91.84,
+      "averageIterations": 1003.24
+    },
+    {
+      "c": 6,
+      "nodeCount": 110,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 3820.9,
+      "averageColorChanges": 91.6,
+      "averageIterations": 2000.28
+    },
+    {
+      "c": 6,
+      "nodeCount": 110,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 5833.42,
+      "averageColorChanges": 91.78,
+      "averageIterations": 3006.66
+    },
+    {
+      "c": 6,
+      "nodeCount": 110,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 7762.02,
+      "averageColorChanges": 90.93,
+      "averageIterations": 3970.04
+    },
+    {
+      "c": 6,
+      "nodeCount": 110,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 9820.14,
+      "averageColorChanges": 91.61,
+      "averageIterations": 4999.8
+    },
+    {
+      "c": 6,
+      "nodeCount": 110,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 11797.68,
+      "averageColorChanges": 91.5,
+      "averageIterations": 5988.48
+    },
+    {
+      "c": 6,
+      "nodeCount": 110,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 13813.94,
+      "averageColorChanges": 91.56,
+      "averageIterations": 6996.65
+    },
+    {
+      "c": 6,
+      "nodeCount": 110,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 15849.2,
+      "averageColorChanges": 91.79,
+      "averageIterations": 8014.54
+    },
+    {
+      "c": 6,
+      "nodeCount": 110,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 17923.48,
+      "averageColorChanges": 92.15,
+      "averageIterations": 9052.03
+    },
+    {
+      "c": 6,
+      "nodeCount": 110,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 19884.8,
+      "averageColorChanges": 91.94,
+      "averageIterations": 10032.45
+    },
+    {
+      "c": 6,
+      "nodeCount": 160,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 3970.14,
+      "averageColorChanges": 132.88,
+      "averageIterations": 2116.13
+    },
+    {
+      "c": 6,
+      "nodeCount": 160,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 8240.14,
+      "averageColorChanges": 133.58,
+      "averageIterations": 4251.79
+    },
+    {
+      "c": 6,
+      "nodeCount": 160,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 12473.16,
+      "averageColorChanges": 133.44,
+      "averageIterations": 6368.17
+    },
+    {
+      "c": 6,
+      "nodeCount": 160,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 16695.56,
+      "averageColorChanges": 133.11,
+      "averageIterations": 8479.09
+    },
+    {
+      "c": 6,
+      "nodeCount": 160,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 20910.88,
+      "averageColorChanges": 133.02,
+      "averageIterations": 10586.63
+    },
+    {
+      "c": 6,
+      "nodeCount": 160,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 25231.62,
+      "averageColorChanges": 133.38,
+      "averageIterations": 12747.39
+    },
+    {
+      "c": 6,
+      "nodeCount": 160,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 29273.66,
+      "averageColorChanges": 132.51,
+      "averageIterations": 14767.55
+    },
+    {
+      "c": 6,
+      "nodeCount": 160,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 33784.52,
+      "averageColorChanges": 133.73,
+      "averageIterations": 17024.12
+    },
+    {
+      "c": 6,
+      "nodeCount": 160,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 37921.02,
+      "averageColorChanges": 133.29,
+      "averageIterations": 19091.92
+    },
+    {
+      "c": 6,
+      "nodeCount": 160,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 42162.72,
+      "averageColorChanges": 133.25,
+      "averageIterations": 21212.78
+    },
+    {
+      "c": 6,
+      "nodeCount": 210,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 6924.8,
+      "averageColorChanges": 173.6,
+      "averageIterations": 3634.16
+    },
+    {
+      "c": 6,
+      "nodeCount": 210,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 14251.66,
+      "averageColorChanges": 174.45,
+      "averageIterations": 7298.5
+    },
+    {
+      "c": 6,
+      "nodeCount": 210,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 21717.64,
+      "averageColorChanges": 175.7,
+      "averageIterations": 11032.72
+    },
+    {
+      "c": 6,
+      "nodeCount": 210,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 29041.06,
+      "averageColorChanges": 175.51,
+      "averageIterations": 14694.27
+    },
+    {
+      "c": 6,
+      "nodeCount": 210,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 36233.52,
+      "averageColorChanges": 174.92,
+      "averageIterations": 18289.84
+    },
+    {
+      "c": 6,
+      "nodeCount": 210,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 43458.62,
+      "averageColorChanges": 174.53,
+      "averageIterations": 21901.99
+    },
+    {
+      "c": 6,
+      "nodeCount": 210,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 50680.16,
+      "averageColorChanges": 174.21,
+      "averageIterations": 25512.45
+    },
+    {
+      "c": 6,
+      "nodeCount": 210,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 58015.74,
+      "averageColorChanges": 174.39,
+      "averageIterations": 29180.43
+    },
+    {
+      "c": 6,
+      "nodeCount": 210,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 65569.74,
+      "averageColorChanges": 175.05,
+      "averageIterations": 32958.1
+    },
+    {
+      "c": 6,
+      "nodeCount": 210,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 72772.88,
+      "averageColorChanges": 174.73,
+      "averageIterations": 36559.37
+    },
+    {
+      "c": 6,
+      "nodeCount": 260,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 10808.24,
+      "averageColorChanges": 217.1,
+      "averageIterations": 5619.39
+    },
+    {
+      "c": 6,
+      "nodeCount": 260,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 22017.86,
+      "averageColorChanges": 216.7,
+      "averageIterations": 11223.74
+    },
+    {
+      "c": 6,
+      "nodeCount": 260,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 33251.44,
+      "averageColorChanges": 216.55,
+      "averageIterations": 16840.4
+    },
+    {
+      "c": 6,
+      "nodeCount": 260,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 44552.9,
+      "averageColorChanges": 216.89,
+      "averageIterations": 22491.51
+    },
+    {
+      "c": 6,
+      "nodeCount": 260,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 55483.04,
+      "averageColorChanges": 215.74,
+      "averageIterations": 27955.38
+    },
+    {
+      "c": 6,
+      "nodeCount": 260,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 67285.3,
+      "averageColorChanges": 217.71,
+      "averageIterations": 33858.52
+    },
+    {
+      "c": 6,
+      "nodeCount": 260,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 78502.2,
+      "averageColorChanges": 217.57,
+      "averageIterations": 39466.81
+    },
+    {
+      "c": 6,
+      "nodeCount": 260,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 89563.14,
+      "averageColorChanges": 216.95,
+      "averageIterations": 44996.75
+    },
+    {
+      "c": 6,
+      "nodeCount": 260,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 100515.38,
+      "averageColorChanges": 216.41,
+      "averageIterations": 50472.24
+    },
+    {
+      "c": 6,
+      "nodeCount": 260,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 112041.08,
+      "averageColorChanges": 217.0,
+      "averageIterations": 56235.67
+    },
+    {
+      "c": 6,
+      "nodeCount": 310,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 15487.1,
+      "averageColorChanges": 258.76,
+      "averageIterations": 8000.5
+    },
+    {
+      "c": 6,
+      "nodeCount": 310,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 31484.16,
+      "averageColorChanges": 258.71,
+      "averageIterations": 15998.96
+    },
+    {
+      "c": 6,
+      "nodeCount": 310,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 47576.92,
+      "averageColorChanges": 259.17,
+      "averageIterations": 24045.85
+    },
+    {
+      "c": 6,
+      "nodeCount": 310,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 63538.3,
+      "averageColorChanges": 258.91,
+      "averageIterations": 32026.26
+    },
+    {
+      "c": 6,
+      "nodeCount": 310,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 79611.12,
+      "averageColorChanges": 259.08,
+      "averageIterations": 40062.85
+    },
+    {
+      "c": 6,
+      "nodeCount": 310,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 95264.64,
+      "averageColorChanges": 258.11,
+      "averageIterations": 47888.58
+    },
+    {
+      "c": 6,
+      "nodeCount": 310,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 110948.24,
+      "averageColorChanges": 257.54,
+      "averageIterations": 55729.81
+    },
+    {
+      "c": 6,
+      "nodeCount": 310,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 126901.86,
+      "averageColorChanges": 257.53,
+      "averageIterations": 63706.64
+    },
+    {
+      "c": 6,
+      "nodeCount": 310,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 143083.2,
+      "averageColorChanges": 258.02,
+      "averageIterations": 71797.77
+    },
+    {
+      "c": 6,
+      "nodeCount": 310,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 159311.92,
+      "averageColorChanges": 258.41,
+      "averageIterations": 79912.58
+    },
+    {
+      "c": 6,
+      "nodeCount": 360,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 20990.76,
+      "averageColorChanges": 300.45,
+      "averageIterations": 10793.96
+    },
+    {
+      "c": 6,
+      "nodeCount": 360,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 42210.46,
+      "averageColorChanges": 297.98,
+      "averageIterations": 21401.3
+    },
+    {
+      "c": 6,
+      "nodeCount": 360,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 63872.0,
+      "averageColorChanges": 299.14,
+      "averageIterations": 32233.4
+    },
+    {
+      "c": 6,
+      "nodeCount": 360,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 85820.6,
+      "averageColorChanges": 300.71,
+      "averageIterations": 43209.16
+    },
+    {
+      "c": 6,
+      "nodeCount": 360,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 107206.74,
+      "averageColorChanges": 300.09,
+      "averageIterations": 53901.61
+    },
+    {
+      "c": 6,
+      "nodeCount": 360,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 128737.86,
+      "averageColorChanges": 300.09,
+      "averageIterations": 64667.17
+    },
+    {
+      "c": 6,
+      "nodeCount": 360,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 150469.92,
+      "averageColorChanges": 300.39,
+      "averageIterations": 75533.56
+    },
+    {
+      "c": 6,
+      "nodeCount": 360,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 172317.9,
+      "averageColorChanges": 300.89,
+      "averageIterations": 86457.98
+    },
+    {
+      "c": 6,
+      "nodeCount": 360,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 193434.56,
+      "averageColorChanges": 300.17,
+      "averageIterations": 97015.55
+    },
+    {
+      "c": 6,
+      "nodeCount": 360,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 214486.96,
+      "averageColorChanges": 299.4,
+      "averageIterations": 107541.04
+    },
+    {
+      "c": 6,
+      "nodeCount": 410,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 27214.06,
+      "averageColorChanges": 340.77,
+      "averageIterations": 13945.91
+    },
+    {
+      "c": 6,
+      "nodeCount": 410,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 55146.62,
+      "averageColorChanges": 341.09,
+      "averageIterations": 27912.55
+    },
+    {
+      "c": 6,
+      "nodeCount": 410,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 83417.12,
+      "averageColorChanges": 342.57,
+      "averageIterations": 42049.23
+    },
+    {
+      "c": 6,
+      "nodeCount": 410,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 111063.04,
+      "averageColorChanges": 341.32,
+      "averageIterations": 55871.01
+    },
+    {
+      "c": 6,
+      "nodeCount": 410,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 138873.52,
+      "averageColorChanges": 341.03,
+      "averageIterations": 69775.92
+    },
+    {
+      "c": 6,
+      "nodeCount": 410,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 166974.82,
+      "averageColorChanges": 341.48,
+      "averageIterations": 83827.02
+    },
+    {
+      "c": 6,
+      "nodeCount": 410,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 194761.22,
+      "averageColorChanges": 341.19,
+      "averageIterations": 97719.96
+    },
+    {
+      "c": 6,
+      "nodeCount": 410,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 222870.82,
+      "averageColorChanges": 341.4,
+      "averageIterations": 111775.0
+    },
+    {
+      "c": 6,
+      "nodeCount": 410,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 251545.72,
+      "averageColorChanges": 342.44,
+      "averageIterations": 126113.48
+    },
+    {
+      "c": 6,
+      "nodeCount": 410,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 278927.12,
+      "averageColorChanges": 341.65,
+      "averageIterations": 139803.38
+    },
+    {
+      "c": 6,
+      "nodeCount": 460,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 34468.08,
+      "averageColorChanges": 383.55,
+      "averageIterations": 17615.73
+    },
+    {
+      "c": 6,
+      "nodeCount": 460,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 69620.08,
+      "averageColorChanges": 383.22,
+      "averageIterations": 35191.46
+    },
+    {
+      "c": 6,
+      "nodeCount": 460,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 104968.84,
+      "averageColorChanges": 383.98,
+      "averageIterations": 52866.53
+    },
+    {
+      "c": 6,
+      "nodeCount": 460,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 140254.92,
+      "averageColorChanges": 383.9,
+      "averageIterations": 70509.49
+    },
+    {
+      "c": 6,
+      "nodeCount": 460,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 175146.42,
+      "averageColorChanges": 383.05,
+      "averageIterations": 87954.47
+    },
+    {
+      "c": 6,
+      "nodeCount": 460,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 210864.9,
+      "averageColorChanges": 384.04,
+      "averageIterations": 105814.67
+    },
+    {
+      "c": 6,
+      "nodeCount": 460,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 245916.58,
+      "averageColorChanges": 383.71,
+      "averageIterations": 123340.2
+    },
+    {
+      "c": 6,
+      "nodeCount": 460,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 281565.94,
+      "averageColorChanges": 384.25,
+      "averageIterations": 141165.4
+    },
+    {
+      "c": 6,
+      "nodeCount": 460,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 315822.38,
+      "averageColorChanges": 383.0,
+      "averageIterations": 158292.38
+    },
+    {
+      "c": 6,
+      "nodeCount": 460,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 352121.56,
+      "averageColorChanges": 384.23,
+      "averageIterations": 176443.19
+    },
+    {
+      "c": 7,
+      "nodeCount": 10,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 35.14,
+      "averageColorChanges": 12.35,
+      "averageIterations": 26.67
+    },
+    {
+      "c": 7,
+      "nodeCount": 10,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 33.72,
+      "averageColorChanges": 12.03,
+      "averageIterations": 25.94
+    },
+    {
+      "c": 7,
+      "nodeCount": 10,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 39.84,
+      "averageColorChanges": 9.48,
+      "averageIterations": 27.27
+    },
+    {
+      "c": 7,
+      "nodeCount": 10,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 51.48,
+      "averageColorChanges": 9.38,
+      "averageIterations": 32.99
+    },
+    {
+      "c": 7,
+      "nodeCount": 10,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 65.68,
+      "averageColorChanges": 8.65,
+      "averageIterations": 39.61
+    },
+    {
+      "c": 7,
+      "nodeCount": 10,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 77.02,
+      "averageColorChanges": 8.39,
+      "averageIterations": 45.04
+    },
+    {
+      "c": 7,
+      "nodeCount": 10,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 93.62,
+      "averageColorChanges": 8.65,
+      "averageIterations": 53.62
+    },
+    {
+      "c": 7,
+      "nodeCount": 10,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 112.0,
+      "averageColorChanges": 8.72,
+      "averageIterations": 62.85
+    },
+    {
+      "c": 7,
+      "nodeCount": 10,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 121.66,
+      "averageColorChanges": 8.36,
+      "averageIterations": 67.36
+    },
+    {
+      "c": 7,
+      "nodeCount": 10,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 141.36,
+      "averageColorChanges": 8.52,
+      "averageIterations": 77.39
+    },
+    {
+      "c": 7,
+      "nodeCount": 60,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 586.42,
+      "averageColorChanges": 59.26,
+      "averageIterations": 350.3
+    },
+    {
+      "c": 7,
+      "nodeCount": 60,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 1117.12,
+      "averageColorChanges": 51.55,
+      "averageIterations": 608.28
+    },
+    {
+      "c": 7,
+      "nodeCount": 60,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 1720.26,
+      "averageColorChanges": 51.41,
+      "averageIterations": 909.66
+    },
+    {
+      "c": 7,
+      "nodeCount": 60,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 2331.94,
+      "averageColorChanges": 51.34,
+      "averageIterations": 1215.47
+    },
+    {
+      "c": 7,
+      "nodeCount": 60,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 2952.62,
+      "averageColorChanges": 51.72,
+      "averageIterations": 1526.12
+    },
+    {
+      "c": 7,
+      "nodeCount": 60,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 3545.42,
+      "averageColorChanges": 51.39,
+      "averageIterations": 1822.24
+    },
+    {
+      "c": 7,
+      "nodeCount": 60,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 4144.94,
+      "averageColorChanges": 51.27,
+      "averageIterations": 2121.9
+    },
+    {
+      "c": 7,
+      "nodeCount": 60,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 4769.18,
+      "averageColorChanges": 51.45,
+      "averageIterations": 2434.17
+    },
+    {
+      "c": 7,
+      "nodeCount": 60,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5375.42,
+      "averageColorChanges": 51.42,
+      "averageIterations": 2737.26
+    },
+    {
+      "c": 7,
+      "nodeCount": 60,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5949.32,
+      "averageColorChanges": 51.1,
+      "averageIterations": 3023.93
+    },
+    {
+      "c": 7,
+      "nodeCount": 110,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 1881.68,
+      "averageColorChanges": 94.69,
+      "averageIterations": 1033.66
+    },
+    {
+      "c": 7,
+      "nodeCount": 110,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 3920.86,
+      "averageColorChanges": 94.08,
+      "averageIterations": 2052.63
+    },
+    {
+      "c": 7,
+      "nodeCount": 110,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 5989.08,
+      "averageColorChanges": 94.25,
+      "averageIterations": 3086.92
+    },
+    {
+      "c": 7,
+      "nodeCount": 110,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 8096.2,
+      "averageColorChanges": 94.86,
+      "averageIterations": 4141.1
+    },
+    {
+      "c": 7,
+      "nodeCount": 110,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 10160.0,
+      "averageColorChanges": 94.65,
+      "averageIterations": 5172.86
+    },
+    {
+      "c": 7,
+      "nodeCount": 110,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 12121.6,
+      "averageColorChanges": 94.0,
+      "averageIterations": 6152.93
+    },
+    {
+      "c": 7,
+      "nodeCount": 110,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 14285.78,
+      "averageColorChanges": 94.58,
+      "averageIterations": 7235.67
+    },
+    {
+      "c": 7,
+      "nodeCount": 110,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 16249.02,
+      "averageColorChanges": 94.08,
+      "averageIterations": 8216.75
+    },
+    {
+      "c": 7,
+      "nodeCount": 110,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 18287.62,
+      "averageColorChanges": 94.05,
+      "averageIterations": 9235.98
+    },
+    {
+      "c": 7,
+      "nodeCount": 110,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 20461.52,
+      "averageColorChanges": 94.63,
+      "averageIterations": 10323.48
+    },
+    {
+      "c": 7,
+      "nodeCount": 160,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 4085.46,
+      "averageColorChanges": 136.82,
+      "averageIterations": 2177.71
+    },
+    {
+      "c": 7,
+      "nodeCount": 160,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 8482.7,
+      "averageColorChanges": 137.48,
+      "averageIterations": 4376.97
+    },
+    {
+      "c": 7,
+      "nodeCount": 160,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 12844.14,
+      "averageColorChanges": 137.3,
+      "averageIterations": 6557.5
+    },
+    {
+      "c": 7,
+      "nodeCount": 160,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 17316.04,
+      "averageColorChanges": 138.13,
+      "averageIterations": 8794.3
+    },
+    {
+      "c": 7,
+      "nodeCount": 160,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 21580.12,
+      "averageColorChanges": 137.23,
+      "averageIterations": 10925.51
+    },
+    {
+      "c": 7,
+      "nodeCount": 160,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 25904.32,
+      "averageColorChanges": 137.01,
+      "averageIterations": 13087.34
+    },
+    {
+      "c": 7,
+      "nodeCount": 160,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 30252.38,
+      "averageColorChanges": 136.95,
+      "averageIterations": 15261.31
+    },
+    {
+      "c": 7,
+      "nodeCount": 160,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 34718.12,
+      "averageColorChanges": 137.34,
+      "averageIterations": 17494.57
+    },
+    {
+      "c": 7,
+      "nodeCount": 160,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 39158.28,
+      "averageColorChanges": 137.66,
+      "averageIterations": 19714.92
+    },
+    {
+      "c": 7,
+      "nodeCount": 160,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 43628.96,
+      "averageColorChanges": 137.95,
+      "averageIterations": 21950.54
+    },
+    {
+      "c": 7,
+      "nodeCount": 210,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 7182.08,
+      "averageColorChanges": 180.32,
+      "averageIterations": 3769.47
+    },
+    {
+      "c": 7,
+      "nodeCount": 210,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 14714.42,
+      "averageColorChanges": 180.2,
+      "averageIterations": 7535.53
+    },
+    {
+      "c": 7,
+      "nodeCount": 210,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 22215.7,
+      "averageColorChanges": 179.79,
+      "averageIterations": 11285.79
+    },
+    {
+      "c": 7,
+      "nodeCount": 210,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 29814.14,
+      "averageColorChanges": 180.29,
+      "averageIterations": 15085.54
+    },
+    {
+      "c": 7,
+      "nodeCount": 210,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 37261.1,
+      "averageColorChanges": 179.74,
+      "averageIterations": 18808.5
+    },
+    {
+      "c": 7,
+      "nodeCount": 210,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 44816.3,
+      "averageColorChanges": 179.95,
+      "averageIterations": 22586.28
+    },
+    {
+      "c": 7,
+      "nodeCount": 210,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 52180.24,
+      "averageColorChanges": 179.42,
+      "averageIterations": 26267.67
+    },
+    {
+      "c": 7,
+      "nodeCount": 210,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 59831.8,
+      "averageColorChanges": 179.89,
+      "averageIterations": 30093.89
+    },
+    {
+      "c": 7,
+      "nodeCount": 210,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 67310.72,
+      "averageColorChanges": 179.77,
+      "averageIterations": 33833.23
+    },
+    {
+      "c": 7,
+      "nodeCount": 210,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 74961.04,
+      "averageColorChanges": 180.04,
+      "averageIterations": 37658.71
+    },
+    {
+      "c": 7,
+      "nodeCount": 260,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 11031.32,
+      "averageColorChanges": 221.4,
+      "averageIterations": 5735.19
+    },
+    {
+      "c": 7,
+      "nodeCount": 260,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 22534.8,
+      "averageColorChanges": 221.83,
+      "averageIterations": 11487.31
+    },
+    {
+      "c": 7,
+      "nodeCount": 260,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 34179.76,
+      "averageColorChanges": 222.68,
+      "averageIterations": 17310.73
+    },
+    {
+      "c": 7,
+      "nodeCount": 260,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 45885.2,
+      "averageColorChanges": 223.46,
+      "averageIterations": 23164.19
+    },
+    {
+      "c": 7,
+      "nodeCount": 260,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 57070.26,
+      "averageColorChanges": 221.86,
+      "averageIterations": 28755.2
+    },
+    {
+      "c": 7,
+      "nodeCount": 260,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 69017.2,
+      "averageColorChanges": 223.33,
+      "averageIterations": 34730.08
+    },
+    {
+      "c": 7,
+      "nodeCount": 260,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 80322.4,
+      "averageColorChanges": 222.59,
+      "averageIterations": 40381.94
+    },
+    {
+      "c": 7,
+      "nodeCount": 260,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 92187.26,
+      "averageColorChanges": 223.42,
+      "averageIterations": 46315.18
+    },
+    {
+      "c": 7,
+      "nodeCount": 260,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 103297.68,
+      "averageColorChanges": 222.38,
+      "averageIterations": 51869.37
+    },
+    {
+      "c": 7,
+      "nodeCount": 260,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 114992.6,
+      "averageColorChanges": 222.69,
+      "averageIterations": 57717.15
+    },
+    {
+      "c": 7,
+      "nodeCount": 310,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 15884.94,
+      "averageColorChanges": 265.54,
+      "averageIterations": 8206.15
+    },
+    {
+      "c": 7,
+      "nodeCount": 310,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 32324.78,
+      "averageColorChanges": 265.8,
+      "averageIterations": 16426.28
+    },
+    {
+      "c": 7,
+      "nodeCount": 310,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 48983.26,
+      "averageColorChanges": 266.97,
+      "averageIterations": 24756.75
+    },
+    {
+      "c": 7,
+      "nodeCount": 310,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 65068.94,
+      "averageColorChanges": 265.14,
+      "averageIterations": 32797.82
+    },
+    {
+      "c": 7,
+      "nodeCount": 310,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 81640.12,
+      "averageColorChanges": 265.86,
+      "averageIterations": 41083.99
+    },
+    {
+      "c": 7,
+      "nodeCount": 310,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 97921.34,
+      "averageColorChanges": 265.34,
+      "averageIterations": 49224.21
+    },
+    {
+      "c": 7,
+      "nodeCount": 310,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 114426.88,
+      "averageColorChanges": 265.65,
+      "averageIterations": 57477.18
+    },
+    {
+      "c": 7,
+      "nodeCount": 310,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 130925.28,
+      "averageColorChanges": 265.69,
+      "averageIterations": 65726.53
+    },
+    {
+      "c": 7,
+      "nodeCount": 310,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 147475.42,
+      "averageColorChanges": 265.94,
+      "averageIterations": 74001.81
+    },
+    {
+      "c": 7,
+      "nodeCount": 310,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 163734.8,
+      "averageColorChanges": 265.7,
+      "averageIterations": 82131.2
+    },
+    {
+      "c": 7,
+      "nodeCount": 360,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 21539.92,
+      "averageColorChanges": 308.4,
+      "averageIterations": 11076.55
+    },
+    {
+      "c": 7,
+      "nodeCount": 360,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 43631.9,
+      "averageColorChanges": 307.99,
+      "averageIterations": 22122.07
+    },
+    {
+      "c": 7,
+      "nodeCount": 360,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 65513.86,
+      "averageColorChanges": 306.83,
+      "averageIterations": 33061.94
+    },
+    {
+      "c": 7,
+      "nodeCount": 360,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 88161.66,
+      "averageColorChanges": 308.99,
+      "averageIterations": 44387.91
+    },
+    {
+      "c": 7,
+      "nodeCount": 360,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 110131.68,
+      "averageColorChanges": 308.36,
+      "averageIterations": 55372.38
+    },
+    {
+      "c": 7,
+      "nodeCount": 360,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 132418.28,
+      "averageColorChanges": 308.68,
+      "averageIterations": 66515.92
+    },
+    {
+      "c": 7,
+      "nodeCount": 360,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 154382.94,
+      "averageColorChanges": 308.32,
+      "averageIterations": 77497.89
+    },
+    {
+      "c": 7,
+      "nodeCount": 360,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 176013.96,
+      "averageColorChanges": 307.35,
+      "averageIterations": 88312.5
+    },
+    {
+      "c": 7,
+      "nodeCount": 360,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 199226.74,
+      "averageColorChanges": 309.11,
+      "averageIterations": 99920.63
+    },
+    {
+      "c": 7,
+      "nodeCount": 360,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 221210.2,
+      "averageColorChanges": 308.77,
+      "averageIterations": 110912.05
+    },
+    {
+      "c": 7,
+      "nodeCount": 410,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 28139.94,
+      "averageColorChanges": 352.18,
+      "averageIterations": 14420.34
+    },
+    {
+      "c": 7,
+      "nodeCount": 410,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 56800.5,
+      "averageColorChanges": 351.41,
+      "averageIterations": 28749.81
+    },
+    {
+      "c": 7,
+      "nodeCount": 410,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 85840.86,
+      "averageColorChanges": 352.48,
+      "averageIterations": 43271.04
+    },
+    {
+      "c": 7,
+      "nodeCount": 410,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 114232.24,
+      "averageColorChanges": 351.19,
+      "averageIterations": 57465.44
+    },
+    {
+      "c": 7,
+      "nodeCount": 410,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 143027.18,
+      "averageColorChanges": 351.36,
+      "averageIterations": 71863.03
+    },
+    {
+      "c": 7,
+      "nodeCount": 410,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 171796.76,
+      "averageColorChanges": 351.32,
+      "averageIterations": 86247.83
+    },
+    {
+      "c": 7,
+      "nodeCount": 410,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 200826.08,
+      "averageColorChanges": 351.77,
+      "averageIterations": 100763.01
+    },
+    {
+      "c": 7,
+      "nodeCount": 410,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 230548.3,
+      "averageColorChanges": 353.27,
+      "averageIterations": 115625.53
+    },
+    {
+      "c": 7,
+      "nodeCount": 410,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 258356.44,
+      "averageColorChanges": 351.77,
+      "averageIterations": 129528.11
+    },
+    {
+      "c": 7,
+      "nodeCount": 410,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 286295.6,
+      "averageColorChanges": 350.71,
+      "averageIterations": 143496.65
+    },
+    {
+      "c": 7,
+      "nodeCount": 460,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 35495.54,
+      "averageColorChanges": 395.21,
+      "averageIterations": 18141.09
+    },
+    {
+      "c": 7,
+      "nodeCount": 460,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 71774.24,
+      "averageColorChanges": 395.11,
+      "averageIterations": 36280.35
+    },
+    {
+      "c": 7,
+      "nodeCount": 460,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 107662.46,
+      "averageColorChanges": 393.56,
+      "averageIterations": 54222.94
+    },
+    {
+      "c": 7,
+      "nodeCount": 460,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 144156.42,
+      "averageColorChanges": 394.55,
+      "averageIterations": 72470.87
+    },
+    {
+      "c": 7,
+      "nodeCount": 460,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 179905.44,
+      "averageColorChanges": 393.49,
+      "averageIterations": 90344.36
+    },
+    {
+      "c": 7,
+      "nodeCount": 460,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 216525.46,
+      "averageColorChanges": 394.36,
+      "averageIterations": 108655.26
+    },
+    {
+      "c": 7,
+      "nodeCount": 460,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 252579.18,
+      "averageColorChanges": 394.14,
+      "averageIterations": 126681.87
+    },
+    {
+      "c": 7,
+      "nodeCount": 460,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 289307.24,
+      "averageColorChanges": 394.87,
+      "averageIterations": 145046.62
+    },
+    {
+      "c": 7,
+      "nodeCount": 460,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 325915.8,
+      "averageColorChanges": 395.27,
+      "averageIterations": 163351.32
+    },
+    {
+      "c": 7,
+      "nodeCount": 460,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 362179.24,
+      "averageColorChanges": 395.23,
+      "averageIterations": 181483.01
+    },
+    {
+      "c": 8,
+      "nodeCount": 10,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 33.3,
+      "averageColorChanges": 11.88,
+      "averageIterations": 25.7
+    },
+    {
+      "c": 8,
+      "nodeCount": 10,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 34.7,
+      "averageColorChanges": 12.33,
+      "averageIterations": 26.64
+    },
+    {
+      "c": 8,
+      "nodeCount": 10,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 41.2,
+      "averageColorChanges": 9.88,
+      "averageIterations": 28.33
+    },
+    {
+      "c": 8,
+      "nodeCount": 10,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 51.6,
+      "averageColorChanges": 9.12,
+      "averageIterations": 32.98
+    },
+    {
+      "c": 8,
+      "nodeCount": 10,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 68.36,
+      "averageColorChanges": 9.02,
+      "averageIterations": 41.27
+    },
+    {
+      "c": 8,
+      "nodeCount": 10,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 81.62,
+      "averageColorChanges": 8.85,
+      "averageIterations": 47.83
+    },
+    {
+      "c": 8,
+      "nodeCount": 10,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 93.08,
+      "averageColorChanges": 8.63,
+      "averageIterations": 53.28
+    },
+    {
+      "c": 8,
+      "nodeCount": 10,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 111.56,
+      "averageColorChanges": 8.7,
+      "averageIterations": 62.61
+    },
+    {
+      "c": 8,
+      "nodeCount": 10,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 127.2,
+      "averageColorChanges": 8.8,
+      "averageIterations": 70.56
+    },
+    {
+      "c": 8,
+      "nodeCount": 10,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 143.92,
+      "averageColorChanges": 8.73,
+      "averageIterations": 78.83
+    },
+    {
+      "c": 8,
+      "nodeCount": 60,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 576.02,
+      "averageColorChanges": 58.2,
+      "averageIterations": 344.22
+    },
+    {
+      "c": 8,
+      "nodeCount": 60,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 1144.54,
+      "averageColorChanges": 52.82,
+      "averageIterations": 623.18
+    },
+    {
+      "c": 8,
+      "nodeCount": 60,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 1754.74,
+      "averageColorChanges": 52.4,
+      "averageIterations": 927.86
+    },
+    {
+      "c": 8,
+      "nodeCount": 60,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 2388.94,
+      "averageColorChanges": 52.68,
+      "averageIterations": 1245.29
+    },
+    {
+      "c": 8,
+      "nodeCount": 60,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 2982.34,
+      "averageColorChanges": 52.18,
+      "averageIterations": 1541.48
+    },
+    {
+      "c": 8,
+      "nodeCount": 60,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 3614.12,
+      "averageColorChanges": 52.38,
+      "averageIterations": 1857.57
+    },
+    {
+      "c": 8,
+      "nodeCount": 60,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 4224.32,
+      "averageColorChanges": 52.26,
+      "averageIterations": 2162.55
+    },
+    {
+      "c": 8,
+      "nodeCount": 60,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 4874.14,
+      "averageColorChanges": 52.56,
+      "averageIterations": 2487.82
+    },
+    {
+      "c": 8,
+      "nodeCount": 60,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5442.14,
+      "averageColorChanges": 52.13,
+      "averageIterations": 2771.27
+    },
+    {
+      "c": 8,
+      "nodeCount": 60,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 6096.64,
+      "averageColorChanges": 52.44,
+      "averageIterations": 3098.86
+    },
+    {
+      "c": 8,
+      "nodeCount": 110,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 1917.6,
+      "averageColorChanges": 96.51,
+      "averageIterations": 1053.44
+    },
+    {
+      "c": 8,
+      "nodeCount": 110,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 4004.08,
+      "averageColorChanges": 96.14,
+      "averageIterations": 2096.3
+    },
+    {
+      "c": 8,
+      "nodeCount": 110,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 6070.82,
+      "averageColorChanges": 95.56,
+      "averageIterations": 3129.13
+    },
+    {
+      "c": 8,
+      "nodeCount": 110,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 8207.62,
+      "averageColorChanges": 96.11,
+      "averageIterations": 4198.09
+    },
+    {
+      "c": 8,
+      "nodeCount": 110,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 10352.12,
+      "averageColorChanges": 96.64,
+      "averageIterations": 5270.8
+    },
+    {
+      "c": 8,
+      "nodeCount": 110,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 12410.04,
+      "averageColorChanges": 96.16,
+      "averageIterations": 6299.35
+    },
+    {
+      "c": 8,
+      "nodeCount": 110,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 14450.52,
+      "averageColorChanges": 95.78,
+      "averageIterations": 7319.21
+    },
+    {
+      "c": 8,
+      "nodeCount": 110,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 16642.64,
+      "averageColorChanges": 96.34,
+      "averageIterations": 8415.81
+    },
+    {
+      "c": 8,
+      "nodeCount": 110,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 18669.86,
+      "averageColorChanges": 95.98,
+      "averageIterations": 9429.06
+    },
+    {
+      "c": 8,
+      "nodeCount": 110,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 20822.24,
+      "averageColorChanges": 96.29,
+      "averageIterations": 10505.51
+    },
+    {
+      "c": 8,
+      "nodeCount": 160,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 4184.5,
+      "averageColorChanges": 140.28,
+      "averageIterations": 2230.64
+    },
+    {
+      "c": 8,
+      "nodeCount": 160,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 8651.92,
+      "averageColorChanges": 140.29,
+      "averageIterations": 4464.36
+    },
+    {
+      "c": 8,
+      "nodeCount": 160,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 13105.2,
+      "averageColorChanges": 140.16,
+      "averageIterations": 6690.93
+    },
+    {
+      "c": 8,
+      "nodeCount": 160,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 17534.4,
+      "averageColorChanges": 139.84,
+      "averageIterations": 8905.16
+    },
+    {
+      "c": 8,
+      "nodeCount": 160,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 22039.94,
+      "averageColorChanges": 140.2,
+      "averageIterations": 11158.31
+    },
+    {
+      "c": 8,
+      "nodeCount": 160,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 26565.66,
+      "averageColorChanges": 140.55,
+      "averageIterations": 13421.56
+    },
+    {
+      "c": 8,
+      "nodeCount": 160,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 30884.8,
+      "averageColorChanges": 139.82,
+      "averageIterations": 15580.35
+    },
+    {
+      "c": 8,
+      "nodeCount": 160,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 35474.06,
+      "averageColorChanges": 140.42,
+      "averageIterations": 17875.57
+    },
+    {
+      "c": 8,
+      "nodeCount": 160,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 40041.9,
+      "averageColorChanges": 140.76,
+      "averageIterations": 20159.85
+    },
+    {
+      "c": 8,
+      "nodeCount": 160,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 44311.52,
+      "averageColorChanges": 140.01,
+      "averageIterations": 22293.98
+    },
+    {
+      "c": 8,
+      "nodeCount": 210,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 7300.42,
+      "averageColorChanges": 183.23,
+      "averageIterations": 3831.57
+    },
+    {
+      "c": 8,
+      "nodeCount": 210,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 15033.44,
+      "averageColorChanges": 184.17,
+      "averageIterations": 7698.99
+    },
+    {
+      "c": 8,
+      "nodeCount": 210,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 22658.48,
+      "averageColorChanges": 183.43,
+      "averageIterations": 11510.79
+    },
+    {
+      "c": 8,
+      "nodeCount": 210,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 30347.3,
+      "averageColorChanges": 183.6,
+      "averageIterations": 15355.41
+    },
+    {
+      "c": 8,
+      "nodeCount": 210,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 38090.82,
+      "averageColorChanges": 183.91,
+      "averageIterations": 19227.4
+    },
+    {
+      "c": 8,
+      "nodeCount": 210,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 45893.48,
+      "averageColorChanges": 184.31,
+      "averageIterations": 23129.18
+    },
+    {
+      "c": 8,
+      "nodeCount": 210,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 53421.34,
+      "averageColorChanges": 183.69,
+      "averageIterations": 26892.49
+    },
+    {
+      "c": 8,
+      "nodeCount": 210,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 61279.14,
+      "averageColorChanges": 184.24,
+      "averageIterations": 30821.93
+    },
+    {
+      "c": 8,
+      "nodeCount": 210,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 68466.8,
+      "averageColorChanges": 182.82,
+      "averageIterations": 34414.37
+    },
+    {
+      "c": 8,
+      "nodeCount": 210,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 76583.44,
+      "averageColorChanges": 183.98,
+      "averageIterations": 38473.81
+    },
+    {
+      "c": 8,
+      "nodeCount": 260,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 11378.7,
+      "averageColorChanges": 228.32,
+      "averageIterations": 5915.83
+    },
+    {
+      "c": 8,
+      "nodeCount": 260,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 23141.74,
+      "averageColorChanges": 227.57,
+      "averageIterations": 11796.56
+    },
+    {
+      "c": 8,
+      "nodeCount": 260,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 34880.36,
+      "averageColorChanges": 227.22,
+      "averageIterations": 17665.54
+    },
+    {
+      "c": 8,
+      "nodeCount": 260,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 46751.14,
+      "averageColorChanges": 227.7,
+      "averageIterations": 23601.42
+    },
+    {
+      "c": 8,
+      "nodeCount": 260,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 58244.14,
+      "averageColorChanges": 226.57,
+      "averageIterations": 29346.76
+    },
+    {
+      "c": 8,
+      "nodeCount": 260,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 70131.06,
+      "averageColorChanges": 226.99,
+      "averageIterations": 35290.64
+    },
+    {
+      "c": 8,
+      "nodeCount": 260,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 82004.56,
+      "averageColorChanges": 227.27,
+      "averageIterations": 41227.68
+    },
+    {
+      "c": 8,
+      "nodeCount": 260,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 93929.78,
+      "averageColorChanges": 227.53,
+      "averageIterations": 47190.64
+    },
+    {
+      "c": 8,
+      "nodeCount": 260,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 106051.1,
+      "averageColorChanges": 228.34,
+      "averageIterations": 53252.0
+    },
+    {
+      "c": 8,
+      "nodeCount": 260,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 117742.88,
+      "averageColorChanges": 228.08,
+      "averageIterations": 59097.62
+    },
+    {
+      "c": 8,
+      "nodeCount": 310,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 16285.1,
+      "averageColorChanges": 271.89,
+      "averageIterations": 8412.59
+    },
+    {
+      "c": 8,
+      "nodeCount": 310,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 33014.4,
+      "averageColorChanges": 271.29,
+      "averageIterations": 16776.63
+    },
+    {
+      "c": 8,
+      "nodeCount": 310,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 49907.52,
+      "averageColorChanges": 271.93,
+      "averageIterations": 25223.82
+    },
+    {
+      "c": 8,
+      "nodeCount": 310,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 66373.96,
+      "averageColorChanges": 270.56,
+      "averageIterations": 33455.66
+    },
+    {
+      "c": 8,
+      "nodeCount": 310,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 83255.18,
+      "averageColorChanges": 271.03,
+      "averageIterations": 41896.73
+    },
+    {
+      "c": 8,
+      "nodeCount": 310,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 100077.38,
+      "averageColorChanges": 271.22,
+      "averageIterations": 50308.05
+    },
+    {
+      "c": 8,
+      "nodeCount": 310,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 117078.66,
+      "averageColorChanges": 271.75,
+      "averageIterations": 58809.24
+    },
+    {
+      "c": 8,
+      "nodeCount": 310,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 133639.66,
+      "averageColorChanges": 271.31,
+      "averageIterations": 67089.23
+    },
+    {
+      "c": 8,
+      "nodeCount": 310,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 151069.2,
+      "averageColorChanges": 272.47,
+      "averageIterations": 75805.2
+    },
+    {
+      "c": 8,
+      "nodeCount": 310,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 167436.96,
+      "averageColorChanges": 271.68,
+      "averageIterations": 83988.29
+    },
+    {
+      "c": 8,
+      "nodeCount": 360,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 22022.6,
+      "averageColorChanges": 315.46,
+      "averageIterations": 11324.86
+    },
+    {
+      "c": 8,
+      "nodeCount": 360,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 44678.62,
+      "averageColorChanges": 315.43,
+      "averageIterations": 22652.81
+    },
+    {
+      "c": 8,
+      "nodeCount": 360,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 67108.9,
+      "averageColorChanges": 314.27,
+      "averageIterations": 33866.84
+    },
+    {
+      "c": 8,
+      "nodeCount": 360,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 89913.12,
+      "averageColorChanges": 315.15,
+      "averageIterations": 45269.86
+    },
+    {
+      "c": 8,
+      "nodeCount": 360,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 112882.78,
+      "averageColorChanges": 316.09,
+      "averageIterations": 56755.57
+    },
+    {
+      "c": 8,
+      "nodeCount": 360,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 135238.86,
+      "averageColorChanges": 315.26,
+      "averageIterations": 67932.82
+    },
+    {
+      "c": 8,
+      "nodeCount": 360,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 157918.26,
+      "averageColorChanges": 315.34,
+      "averageIterations": 79272.61
+    },
+    {
+      "c": 8,
+      "nodeCount": 360,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 180307.62,
+      "averageColorChanges": 314.89,
+      "averageIterations": 90466.81
+    },
+    {
+      "c": 8,
+      "nodeCount": 360,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 202557.56,
+      "averageColorChanges": 314.37,
+      "averageIterations": 101591.21
+    },
+    {
+      "c": 8,
+      "nodeCount": 360,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 225062.28,
+      "averageColorChanges": 314.24,
+      "averageIterations": 112843.47
+    },
+    {
+      "c": 8,
+      "nodeCount": 410,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 28717.28,
+      "averageColorChanges": 359.79,
+      "averageIterations": 14716.49
+    },
+    {
+      "c": 8,
+      "nodeCount": 410,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 58067.14,
+      "averageColorChanges": 359.07,
+      "averageIterations": 29390.76
+    },
+    {
+      "c": 8,
+      "nodeCount": 410,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 87217.04,
+      "averageColorChanges": 358.25,
+      "averageIterations": 43964.83
+    },
+    {
+      "c": 8,
+      "nodeCount": 410,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 116835.76,
+      "averageColorChanges": 359.15,
+      "averageIterations": 58775.15
+    },
+    {
+      "c": 8,
+      "nodeCount": 410,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 145890.0,
+      "averageColorChanges": 358.26,
+      "averageIterations": 73301.43
+    },
+    {
+      "c": 8,
+      "nodeCount": 410,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 175440.0,
+      "averageColorChanges": 358.79,
+      "averageIterations": 88076.91
+    },
+    {
+      "c": 8,
+      "nodeCount": 410,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 204404.74,
+      "averageColorChanges": 358.12,
+      "averageIterations": 102558.6
+    },
+    {
+      "c": 8,
+      "nodeCount": 410,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 234842.7,
+      "averageColorChanges": 359.84,
+      "averageIterations": 117779.3
+    },
+    {
+      "c": 8,
+      "nodeCount": 410,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 263412.32,
+      "averageColorChanges": 358.7,
+      "averageIterations": 132062.93
+    },
+    {
+      "c": 8,
+      "nodeCount": 410,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 292554.32,
+      "averageColorChanges": 358.34,
+      "averageIterations": 146633.68
+    },
+    {
+      "c": 8,
+      "nodeCount": 460,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 36041.78,
+      "averageColorChanges": 401.19,
+      "averageIterations": 18420.16
+    },
+    {
+      "c": 8,
+      "nodeCount": 460,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 73114.9,
+      "averageColorChanges": 402.47,
+      "averageIterations": 36958.04
+    },
+    {
+      "c": 8,
+      "nodeCount": 460,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 110082.64,
+      "averageColorChanges": 402.37,
+      "averageIterations": 55441.84
+    },
+    {
+      "c": 8,
+      "nodeCount": 460,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 146616.54,
+      "averageColorChanges": 401.29,
+      "averageIterations": 73707.67
+    },
+    {
+      "c": 8,
+      "nodeCount": 460,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 184270.64,
+      "averageColorChanges": 403.09,
+      "averageIterations": 92536.54
+    },
+    {
+      "c": 8,
+      "nodeCount": 460,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 220836.38,
+      "averageColorChanges": 402.33,
+      "averageIterations": 110818.61
+    },
+    {
+      "c": 8,
+      "nodeCount": 460,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 257564.64,
+      "averageColorChanges": 401.95,
+      "averageIterations": 129182.37
+    },
+    {
+      "c": 8,
+      "nodeCount": 460,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 294994.96,
+      "averageColorChanges": 402.68,
+      "averageIterations": 147898.26
+    },
+    {
+      "c": 8,
+      "nodeCount": 460,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 332337.98,
+      "averageColorChanges": 403.17,
+      "averageIterations": 166570.23
+    },
+    {
+      "c": 8,
+      "nodeCount": 460,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 368563.76,
+      "averageColorChanges": 402.29,
+      "averageIterations": 184682.24
+    },
+    {
+      "c": 9,
+      "nodeCount": 10,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 33.5,
+      "averageColorChanges": 11.86,
+      "averageIterations": 25.87
+    },
+    {
+      "c": 9,
+      "nodeCount": 10,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 33.52,
+      "averageColorChanges": 11.79,
+      "averageIterations": 25.77
+    },
+    {
+      "c": 9,
+      "nodeCount": 10,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 43.68,
+      "averageColorChanges": 10.54,
+      "averageIterations": 30.1
+    },
+    {
+      "c": 9,
+      "nodeCount": 10,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 51.54,
+      "averageColorChanges": 9.24,
+      "averageIterations": 33.02
+    },
+    {
+      "c": 9,
+      "nodeCount": 10,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 67.26,
+      "averageColorChanges": 8.99,
+      "averageIterations": 40.67
+    },
+    {
+      "c": 9,
+      "nodeCount": 10,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 81.82,
+      "averageColorChanges": 8.97,
+      "averageIterations": 47.97
+    },
+    {
+      "c": 9,
+      "nodeCount": 10,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 96.2,
+      "averageColorChanges": 8.98,
+      "averageIterations": 55.19
+    },
+    {
+      "c": 9,
+      "nodeCount": 10,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 114.08,
+      "averageColorChanges": 8.94,
+      "averageIterations": 64.09
+    },
+    {
+      "c": 9,
+      "nodeCount": 10,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 128.68,
+      "averageColorChanges": 8.97,
+      "averageIterations": 71.41
+    },
+    {
+      "c": 9,
+      "nodeCount": 10,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 145.68,
+      "averageColorChanges": 8.82,
+      "averageIterations": 79.82
+    },
+    {
+      "c": 9,
+      "nodeCount": 60,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 559.16,
+      "averageColorChanges": 56.71,
+      "averageIterations": 334.3
+    },
+    {
+      "c": 9,
+      "nodeCount": 60,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 1150.92,
+      "averageColorChanges": 53.03,
+      "averageIterations": 626.56
+    },
+    {
+      "c": 9,
+      "nodeCount": 60,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 1790.9,
+      "averageColorChanges": 53.42,
+      "averageIterations": 947.0
+    },
+    {
+      "c": 9,
+      "nodeCount": 60,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 2423.5,
+      "averageColorChanges": 53.49,
+      "averageIterations": 1263.31
+    },
+    {
+      "c": 9,
+      "nodeCount": 60,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 3045.62,
+      "averageColorChanges": 53.27,
+      "averageIterations": 1574.21
+    },
+    {
+      "c": 9,
+      "nodeCount": 60,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 3681.9,
+      "averageColorChanges": 53.38,
+      "averageIterations": 1892.41
+    },
+    {
+      "c": 9,
+      "nodeCount": 60,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 4294.0,
+      "averageColorChanges": 53.11,
+      "averageIterations": 2198.22
+    },
+    {
+      "c": 9,
+      "nodeCount": 60,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 4932.12,
+      "averageColorChanges": 53.26,
+      "averageIterations": 2517.41
+    },
+    {
+      "c": 9,
+      "nodeCount": 60,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5590.68,
+      "averageColorChanges": 53.52,
+      "averageIterations": 2846.99
+    },
+    {
+      "c": 9,
+      "nodeCount": 60,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 6211.48,
+      "averageColorChanges": 53.41,
+      "averageIterations": 3157.27
+    },
+    {
+      "c": 9,
+      "nodeCount": 110,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 1946.6,
+      "averageColorChanges": 98.11,
+      "averageIterations": 1069.57
+    },
+    {
+      "c": 9,
+      "nodeCount": 110,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 4065.22,
+      "averageColorChanges": 97.6,
+      "averageIterations": 2128.34
+    },
+    {
+      "c": 9,
+      "nodeCount": 110,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 6229.88,
+      "averageColorChanges": 98.13,
+      "averageIterations": 3211.17
+    },
+    {
+      "c": 9,
+      "nodeCount": 110,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 8327.76,
+      "averageColorChanges": 97.63,
+      "averageIterations": 4259.61
+    },
+    {
+      "c": 9,
+      "nodeCount": 110,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 10442.62,
+      "averageColorChanges": 97.51,
+      "averageIterations": 5316.91
+    },
+    {
+      "c": 9,
+      "nodeCount": 110,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 12647.94,
+      "averageColorChanges": 98.08,
+      "averageIterations": 6420.14
+    },
+    {
+      "c": 9,
+      "nodeCount": 110,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 14695.98,
+      "averageColorChanges": 97.45,
+      "averageIterations": 7443.52
+    },
+    {
+      "c": 9,
+      "nodeCount": 110,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 16930.06,
+      "averageColorChanges": 98.07,
+      "averageIterations": 8561.23
+    },
+    {
+      "c": 9,
+      "nodeCount": 110,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 18958.16,
+      "averageColorChanges": 97.51,
+      "averageIterations": 9574.7
+    },
+    {
+      "c": 9,
+      "nodeCount": 110,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 21053.36,
+      "averageColorChanges": 97.36,
+      "averageIterations": 10622.14
+    },
+    {
+      "c": 9,
+      "nodeCount": 160,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 4232.24,
+      "averageColorChanges": 141.77,
+      "averageIterations": 2256.0
+    },
+    {
+      "c": 9,
+      "nodeCount": 160,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 8793.86,
+      "averageColorChanges": 142.74,
+      "averageIterations": 4537.75
+    },
+    {
+      "c": 9,
+      "nodeCount": 160,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 13307.36,
+      "averageColorChanges": 142.31,
+      "averageIterations": 6794.11
+    },
+    {
+      "c": 9,
+      "nodeCount": 160,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 17826.44,
+      "averageColorChanges": 142.23,
+      "averageIterations": 9053.58
+    },
+    {
+      "c": 9,
+      "nodeCount": 160,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 22305.6,
+      "averageColorChanges": 141.9,
+      "averageIterations": 11292.89
+    },
+    {
+      "c": 9,
+      "nodeCount": 160,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 26899.22,
+      "averageColorChanges": 142.37,
+      "averageIterations": 13590.1
+    },
+    {
+      "c": 9,
+      "nodeCount": 160,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 31404.48,
+      "averageColorChanges": 142.22,
+      "averageIterations": 15842.6
+    },
+    {
+      "c": 9,
+      "nodeCount": 160,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 36031.46,
+      "averageColorChanges": 142.66,
+      "averageIterations": 18156.48
+    },
+    {
+      "c": 9,
+      "nodeCount": 160,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 40466.58,
+      "averageColorChanges": 142.28,
+      "averageIterations": 20373.68
+    },
+    {
+      "c": 9,
+      "nodeCount": 160,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 45006.72,
+      "averageColorChanges": 142.29,
+      "averageIterations": 22643.78
+    },
+    {
+      "c": 9,
+      "nodeCount": 210,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 7467.02,
+      "averageColorChanges": 187.42,
+      "averageIterations": 3918.96
+    },
+    {
+      "c": 9,
+      "nodeCount": 210,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 15275.86,
+      "averageColorChanges": 187.11,
+      "averageIterations": 7823.14
+    },
+    {
+      "c": 9,
+      "nodeCount": 210,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 23106.06,
+      "averageColorChanges": 187.18,
+      "averageIterations": 11738.31
+    },
+    {
+      "c": 9,
+      "nodeCount": 210,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 30925.6,
+      "averageColorChanges": 187.01,
+      "averageIterations": 15647.95
+    },
+    {
+      "c": 9,
+      "nodeCount": 210,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 38739.32,
+      "averageColorChanges": 187.06,
+      "averageIterations": 19554.79
+    },
+    {
+      "c": 9,
+      "nodeCount": 210,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 46555.74,
+      "averageColorChanges": 186.98,
+      "averageIterations": 23462.98
+    },
+    {
+      "c": 9,
+      "nodeCount": 210,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 54390.52,
+      "averageColorChanges": 187.05,
+      "averageIterations": 27380.41
+    },
+    {
+      "c": 9,
+      "nodeCount": 210,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 62068.56,
+      "averageColorChanges": 186.64,
+      "averageIterations": 31219.0
+    },
+    {
+      "c": 9,
+      "nodeCount": 210,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 69612.14,
+      "averageColorChanges": 185.93,
+      "averageIterations": 34990.11
+    },
+    {
+      "c": 9,
+      "nodeCount": 210,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 77710.8,
+      "averageColorChanges": 186.68,
+      "averageIterations": 39040.2
+    },
+    {
+      "c": 9,
+      "nodeCount": 260,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 11482.34,
+      "averageColorChanges": 230.44,
+      "averageIterations": 5969.72
+    },
+    {
+      "c": 9,
+      "nodeCount": 260,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 23463.0,
+      "averageColorChanges": 230.79,
+      "averageIterations": 11960.41
+    },
+    {
+      "c": 9,
+      "nodeCount": 260,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 35546.16,
+      "averageColorChanges": 231.6,
+      "averageIterations": 18002.78
+    },
+    {
+      "c": 9,
+      "nodeCount": 260,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 47378.6,
+      "averageColorChanges": 230.76,
+      "averageIterations": 23918.16
+    },
+    {
+      "c": 9,
+      "nodeCount": 260,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 59542.66,
+      "averageColorChanges": 231.52,
+      "averageIterations": 30000.99
+    },
+    {
+      "c": 9,
+      "nodeCount": 260,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 71561.68,
+      "averageColorChanges": 231.62,
+      "averageIterations": 36010.56
+    },
+    {
+      "c": 9,
+      "nodeCount": 260,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 83299.34,
+      "averageColorChanges": 230.92,
+      "averageIterations": 41878.66
+    },
+    {
+      "c": 9,
+      "nodeCount": 260,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 95814.88,
+      "averageColorChanges": 232.26,
+      "averageIterations": 48137.78
+    },
+    {
+      "c": 9,
+      "nodeCount": 260,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 107450.86,
+      "averageColorChanges": 231.38,
+      "averageIterations": 53954.9
+    },
+    {
+      "c": 9,
+      "nodeCount": 260,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 119094.8,
+      "averageColorChanges": 230.71,
+      "averageIterations": 59776.2
+    },
+    {
+      "c": 9,
+      "nodeCount": 310,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 16454.62,
+      "averageColorChanges": 275.02,
+      "averageIterations": 8500.46
+    },
+    {
+      "c": 9,
+      "nodeCount": 310,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 33535.62,
+      "averageColorChanges": 275.59,
+      "averageIterations": 17041.52
+    },
+    {
+      "c": 9,
+      "nodeCount": 310,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 50654.28,
+      "averageColorChanges": 276.03,
+      "averageIterations": 25601.33
+    },
+    {
+      "c": 9,
+      "nodeCount": 310,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 67492.78,
+      "averageColorChanges": 275.12,
+      "averageIterations": 34019.64
+    },
+    {
+      "c": 9,
+      "nodeCount": 310,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 84667.92,
+      "averageColorChanges": 275.64,
+      "averageIterations": 42607.71
+    },
+    {
+      "c": 9,
+      "nodeCount": 310,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 101395.62,
+      "averageColorChanges": 274.82,
+      "averageIterations": 50970.72
+    },
+    {
+      "c": 9,
+      "nodeCount": 310,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 118733.7,
+      "averageColorChanges": 275.59,
+      "averageIterations": 59640.56
+    },
+    {
+      "c": 9,
+      "nodeCount": 310,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 136383.42,
+      "averageColorChanges": 276.84,
+      "averageIterations": 68466.69
+    },
+    {
+      "c": 9,
+      "nodeCount": 310,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 152310.72,
+      "averageColorChanges": 274.67,
+      "averageIterations": 76428.18
+    },
+    {
+      "c": 9,
+      "nodeCount": 310,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 169266.48,
+      "averageColorChanges": 274.64,
+      "averageIterations": 84906.02
+    },
+    {
+      "c": 9,
+      "nodeCount": 360,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 22343.36,
+      "averageColorChanges": 319.9,
+      "averageIterations": 11489.74
+    },
+    {
+      "c": 9,
+      "nodeCount": 360,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 45352.14,
+      "averageColorChanges": 320.16,
+      "averageIterations": 22994.35
+    },
+    {
+      "c": 9,
+      "nodeCount": 360,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 68397.44,
+      "averageColorChanges": 320.41,
+      "averageIterations": 34517.21
+    },
+    {
+      "c": 9,
+      "nodeCount": 360,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 91363.42,
+      "averageColorChanges": 320.28,
+      "averageIterations": 46000.07
+    },
+    {
+      "c": 9,
+      "nodeCount": 360,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 114545.9,
+      "averageColorChanges": 320.82,
+      "averageIterations": 57591.85
+    },
+    {
+      "c": 9,
+      "nodeCount": 360,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 137187.78,
+      "averageColorChanges": 319.83,
+      "averageIterations": 68911.85
+    },
+    {
+      "c": 9,
+      "nodeCount": 360,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 160247.78,
+      "averageColorChanges": 320.01,
+      "averageIterations": 80442.0
+    },
+    {
+      "c": 9,
+      "nodeCount": 360,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 183007.72,
+      "averageColorChanges": 319.64,
+      "averageIterations": 91821.58
+    },
+    {
+      "c": 9,
+      "nodeCount": 360,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 206014.32,
+      "averageColorChanges": 319.69,
+      "averageIterations": 103324.96
+    },
+    {
+      "c": 9,
+      "nodeCount": 360,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 228434.64,
+      "averageColorChanges": 318.95,
+      "averageIterations": 114534.36
+    },
+    {
+      "c": 9,
+      "nodeCount": 410,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 29155.04,
+      "averageColorChanges": 365.38,
+      "averageIterations": 14941.01
+    },
+    {
+      "c": 9,
+      "nodeCount": 410,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 58898.94,
+      "averageColorChanges": 364.42,
+      "averageIterations": 29811.99
+    },
+    {
+      "c": 9,
+      "nodeCount": 410,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 88893.74,
+      "averageColorChanges": 365.1,
+      "averageIterations": 44810.08
+    },
+    {
+      "c": 9,
+      "nodeCount": 410,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 118180.92,
+      "averageColorChanges": 363.33,
+      "averageIterations": 59451.9
+    },
+    {
+      "c": 9,
+      "nodeCount": 410,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 148471.34,
+      "averageColorChanges": 364.71,
+      "averageIterations": 74598.45
+    },
+    {
+      "c": 9,
+      "nodeCount": 410,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 177978.7,
+      "averageColorChanges": 363.99,
+      "averageIterations": 89351.44
+    },
+    {
+      "c": 9,
+      "nodeCount": 410,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 208721.56,
+      "averageColorChanges": 365.75,
+      "averageIterations": 104724.56
+    },
+    {
+      "c": 9,
+      "nodeCount": 410,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 237864.06,
+      "averageColorChanges": 364.47,
+      "averageIterations": 119294.61
+    },
+    {
+      "c": 9,
+      "nodeCount": 410,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 268180.94,
+      "averageColorChanges": 365.16,
+      "averageIterations": 134453.73
+    },
+    {
+      "c": 9,
+      "nodeCount": 410,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 297727.76,
+      "averageColorChanges": 364.75,
+      "averageIterations": 149226.74
+    },
+    {
+      "c": 9,
+      "nodeCount": 460,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 36646.98,
+      "averageColorChanges": 408.06,
+      "averageIterations": 18729.63
+    },
+    {
+      "c": 9,
+      "nodeCount": 460,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 74182.94,
+      "averageColorChanges": 408.29,
+      "averageIterations": 37497.9
+    },
+    {
+      "c": 9,
+      "nodeCount": 460,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 112198.68,
+      "averageColorChanges": 410.27,
+      "averageIterations": 56507.72
+    },
+    {
+      "c": 9,
+      "nodeCount": 460,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 149408.52,
+      "averageColorChanges": 409.06,
+      "averageIterations": 75111.42
+    },
+    {
+      "c": 9,
+      "nodeCount": 460,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 186837.92,
+      "averageColorChanges": 408.75,
+      "averageIterations": 93825.82
+    },
+    {
+      "c": 9,
+      "nodeCount": 460,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 224745.78,
+      "averageColorChanges": 409.45,
+      "averageIterations": 112780.43
+    },
+    {
+      "c": 9,
+      "nodeCount": 460,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 262778.56,
+      "averageColorChanges": 410.11,
+      "averageIterations": 131797.48
+    },
+    {
+      "c": 9,
+      "nodeCount": 460,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 299073.04,
+      "averageColorChanges": 408.16,
+      "averageIterations": 149942.86
+    },
+    {
+      "c": 9,
+      "nodeCount": 460,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 336970.46,
+      "averageColorChanges": 408.69,
+      "averageIterations": 168892.08
+    },
+    {
+      "c": 9,
+      "nodeCount": 460,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 374591.04,
+      "averageColorChanges": 408.83,
+      "averageIterations": 187702.46
+    },
+    {
+      "c": 10,
+      "nodeCount": 10,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 32.58,
+      "averageColorChanges": 11.54,
+      "averageIterations": 25.15
+    },
+    {
+      "c": 10,
+      "nodeCount": 10,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 33.08,
+      "averageColorChanges": 11.87,
+      "averageIterations": 25.76
+    },
+    {
+      "c": 10,
+      "nodeCount": 10,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 41.88,
+      "averageColorChanges": 10.2,
+      "averageIterations": 28.98
+    },
+    {
+      "c": 10,
+      "nodeCount": 10,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 52.26,
+      "averageColorChanges": 9.31,
+      "averageIterations": 33.47
+    },
+    {
+      "c": 10,
+      "nodeCount": 10,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 68.8,
+      "averageColorChanges": 9.1,
+      "averageIterations": 41.59
+    },
+    {
+      "c": 10,
+      "nodeCount": 10,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 82.62,
+      "averageColorChanges": 9.02,
+      "averageIterations": 48.43
+    },
+    {
+      "c": 10,
+      "nodeCount": 10,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 95.88,
+      "averageColorChanges": 8.86,
+      "averageIterations": 54.94
+    },
+    {
+      "c": 10,
+      "nodeCount": 10,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 115.06,
+      "averageColorChanges": 9.03,
+      "averageIterations": 64.64
+    },
+    {
+      "c": 10,
+      "nodeCount": 10,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 129.58,
+      "averageColorChanges": 9.04,
+      "averageIterations": 71.89
+    },
+    {
+      "c": 10,
+      "nodeCount": 10,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 147.44,
+      "averageColorChanges": 8.95,
+      "averageIterations": 80.81
+    },
+    {
+      "c": 10,
+      "nodeCount": 60,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 580.06,
+      "averageColorChanges": 58.75,
+      "averageIterations": 346.75
+    },
+    {
+      "c": 10,
+      "nodeCount": 60,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 1175.04,
+      "averageColorChanges": 54.09,
+      "averageIterations": 639.7
+    },
+    {
+      "c": 10,
+      "nodeCount": 60,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 1818.0,
+      "averageColorChanges": 54.24,
+      "averageIterations": 961.32
+    },
+    {
+      "c": 10,
+      "nodeCount": 60,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 2456.56,
+      "averageColorChanges": 54.17,
+      "averageIterations": 1280.6
+    },
+    {
+      "c": 10,
+      "nodeCount": 60,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 3069.92,
+      "averageColorChanges": 53.7,
+      "averageIterations": 1586.77
+    },
+    {
+      "c": 10,
+      "nodeCount": 60,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 3713.62,
+      "averageColorChanges": 53.81,
+      "averageIterations": 1908.77
+    },
+    {
+      "c": 10,
+      "nodeCount": 60,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 4338.5,
+      "averageColorChanges": 53.66,
+      "averageIterations": 2221.05
+    },
+    {
+      "c": 10,
+      "nodeCount": 60,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5037.02,
+      "averageColorChanges": 54.38,
+      "averageIterations": 2571.01
+    },
+    {
+      "c": 10,
+      "nodeCount": 60,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 5643.42,
+      "averageColorChanges": 54.05,
+      "averageIterations": 2873.85
+    },
+    {
+      "c": 10,
+      "nodeCount": 60,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 6281.08,
+      "averageColorChanges": 54.07,
+      "averageIterations": 3192.67
+    },
+    {
+      "c": 10,
+      "nodeCount": 110,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 1960.08,
+      "averageColorChanges": 98.79,
+      "averageIterations": 1076.92
+    },
+    {
+      "c": 10,
+      "nodeCount": 110,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 4120.54,
+      "averageColorChanges": 99.03,
+      "averageIterations": 2157.35
+    },
+    {
+      "c": 10,
+      "nodeCount": 110,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 6274.36,
+      "averageColorChanges": 98.89,
+      "averageIterations": 3234.1
+    },
+    {
+      "c": 10,
+      "nodeCount": 110,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 8466.8,
+      "averageColorChanges": 99.22,
+      "averageIterations": 4330.75
+    },
+    {
+      "c": 10,
+      "nodeCount": 110,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 10681.52,
+      "averageColorChanges": 99.66,
+      "averageIterations": 5438.52
+    },
+    {
+      "c": 10,
+      "nodeCount": 110,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 12757.1,
+      "averageColorChanges": 98.96,
+      "averageIterations": 6475.62
+    },
+    {
+      "c": 10,
+      "nodeCount": 110,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 14931.28,
+      "averageColorChanges": 99.02,
+      "averageIterations": 7562.74
+    },
+    {
+      "c": 10,
+      "nodeCount": 110,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 17112.44,
+      "averageColorChanges": 99.16,
+      "averageIterations": 8653.47
+    },
+    {
+      "c": 10,
+      "nodeCount": 110,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 19288.24,
+      "averageColorChanges": 99.2,
+      "averageIterations": 9741.44
+    },
+    {
+      "c": 10,
+      "nodeCount": 110,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 21435.68,
+      "averageColorChanges": 99.1,
+      "averageIterations": 10815.07
+    },
+    {
+      "c": 10,
+      "nodeCount": 160,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 4305.56,
+      "averageColorChanges": 144.3,
+      "averageIterations": 2295.18
+    },
+    {
+      "c": 10,
+      "nodeCount": 160,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 8859.32,
+      "averageColorChanges": 143.65,
+      "averageIterations": 4571.44
+    },
+    {
+      "c": 10,
+      "nodeCount": 160,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 13500.8,
+      "averageColorChanges": 144.4,
+      "averageIterations": 6892.92
+    },
+    {
+      "c": 10,
+      "nodeCount": 160,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 18050.66,
+      "averageColorChanges": 144.05,
+      "averageIterations": 9167.5
+    },
+    {
+      "c": 10,
+      "nodeCount": 160,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 22656.3,
+      "averageColorChanges": 144.15,
+      "averageIterations": 11470.45
+    },
+    {
+      "c": 10,
+      "nodeCount": 160,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 27114.64,
+      "averageColorChanges": 143.48,
+      "averageIterations": 13698.92
+    },
+    {
+      "c": 10,
+      "nodeCount": 160,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 31861.74,
+      "averageColorChanges": 144.37,
+      "averageIterations": 16073.31
+    },
+    {
+      "c": 10,
+      "nodeCount": 160,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 36356.94,
+      "averageColorChanges": 143.99,
+      "averageIterations": 18320.53
+    },
+    {
+      "c": 10,
+      "nodeCount": 160,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 40861.12,
+      "averageColorChanges": 143.69,
+      "averageIterations": 20572.33
+    },
+    {
+      "c": 10,
+      "nodeCount": 160,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 45408.04,
+      "averageColorChanges": 143.55,
+      "averageIterations": 22845.71
+    },
+    {
+      "c": 10,
+      "nodeCount": 210,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 7511.46,
+      "averageColorChanges": 188.41,
+      "averageIterations": 3942.27
+    },
+    {
+      "c": 10,
+      "nodeCount": 210,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 15506.22,
+      "averageColorChanges": 189.87,
+      "averageIterations": 7941.05
+    },
+    {
+      "c": 10,
+      "nodeCount": 210,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 23424.1,
+      "averageColorChanges": 189.69,
+      "averageIterations": 11899.83
+    },
+    {
+      "c": 10,
+      "nodeCount": 210,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 31315.42,
+      "averageColorChanges": 189.51,
+      "averageIterations": 15845.28
+    },
+    {
+      "c": 10,
+      "nodeCount": 210,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 38997.6,
+      "averageColorChanges": 188.32,
+      "averageIterations": 19685.21
+    },
+    {
+      "c": 10,
+      "nodeCount": 210,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 47198.56,
+      "averageColorChanges": 189.55,
+      "averageIterations": 23786.97
+    },
+    {
+      "c": 10,
+      "nodeCount": 210,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 55014.94,
+      "averageColorChanges": 189.2,
+      "averageIterations": 27694.77
+    },
+    {
+      "c": 10,
+      "nodeCount": 210,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 62948.02,
+      "averageColorChanges": 189.26,
+      "averageIterations": 31661.38
+    },
+    {
+      "c": 10,
+      "nodeCount": 210,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 70726.18,
+      "averageColorChanges": 188.86,
+      "averageIterations": 35550.09
+    },
+    {
+      "c": 10,
+      "nodeCount": 210,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 78646.8,
+      "averageColorChanges": 188.98,
+      "averageIterations": 39510.45
+    },
+    {
+      "c": 10,
+      "nodeCount": 260,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 11635.08,
+      "averageColorChanges": 233.65,
+      "averageIterations": 6049.26
+    },
+    {
+      "c": 10,
+      "nodeCount": 260,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 23776.24,
+      "averageColorChanges": 233.9,
+      "averageIterations": 12120.07
+    },
+    {
+      "c": 10,
+      "nodeCount": 260,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 35908.88,
+      "averageColorChanges": 234.0,
+      "averageIterations": 18186.53
+    },
+    {
+      "c": 10,
+      "nodeCount": 260,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 48001.22,
+      "averageColorChanges": 233.75,
+      "averageIterations": 24232.47
+    },
+    {
+      "c": 10,
+      "nodeCount": 260,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 60165.22,
+      "averageColorChanges": 234.04,
+      "averageIterations": 30314.72
+    },
+    {
+      "c": 10,
+      "nodeCount": 260,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 72220.26,
+      "averageColorChanges": 233.81,
+      "averageIterations": 36342.03
+    },
+    {
+      "c": 10,
+      "nodeCount": 260,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 84305.9,
+      "averageColorChanges": 233.63,
+      "averageIterations": 42384.73
+    },
+    {
+      "c": 10,
+      "nodeCount": 260,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 96391.0,
+      "averageColorChanges": 233.59,
+      "averageIterations": 48427.25
+    },
+    {
+      "c": 10,
+      "nodeCount": 260,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 108689.94,
+      "averageColorChanges": 234.01,
+      "averageIterations": 54577.09
+    },
+    {
+      "c": 10,
+      "nodeCount": 260,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 120771.8,
+      "averageColorChanges": 233.98,
+      "averageIterations": 60617.95
+    },
+    {
+      "c": 10,
+      "nodeCount": 310,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 16696.84,
+      "averageColorChanges": 278.92,
+      "averageIterations": 8625.45
+    },
+    {
+      "c": 10,
+      "nodeCount": 310,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 34010.78,
+      "averageColorChanges": 279.58,
+      "averageIterations": 17283.05
+    },
+    {
+      "c": 10,
+      "nodeCount": 310,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 51200.2,
+      "averageColorChanges": 279.15,
+      "averageIterations": 25877.32
+    },
+    {
+      "c": 10,
+      "nodeCount": 310,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 68342.9,
+      "averageColorChanges": 278.6,
+      "averageIterations": 34448.13
+    },
+    {
+      "c": 10,
+      "nodeCount": 310,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 85708.52,
+      "averageColorChanges": 279.07,
+      "averageIterations": 43131.44
+    },
+    {
+      "c": 10,
+      "nodeCount": 310,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 102740.64,
+      "averageColorChanges": 278.46,
+      "averageIterations": 51646.87
+    },
+    {
+      "c": 10,
+      "nodeCount": 310,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 120415.46,
+      "averageColorChanges": 279.49,
+      "averageIterations": 60485.36
+    },
+    {
+      "c": 10,
+      "nodeCount": 310,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 137629.2,
+      "averageColorChanges": 279.42,
+      "averageIterations": 69092.13
+    },
+    {
+      "c": 10,
+      "nodeCount": 310,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 154418.78,
+      "averageColorChanges": 278.54,
+      "averageIterations": 77486.03
+    },
+    {
+      "c": 10,
+      "nodeCount": 310,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 171465.6,
+      "averageColorChanges": 278.19,
+      "averageIterations": 86009.15
+    },
+    {
+      "c": 10,
+      "nodeCount": 360,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 22632.64,
+      "averageColorChanges": 324.12,
+      "averageIterations": 11638.56
+    },
+    {
+      "c": 10,
+      "nodeCount": 360,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 45834.46,
+      "averageColorChanges": 323.59,
+      "averageIterations": 23238.93
+    },
+    {
+      "c": 10,
+      "nodeCount": 360,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 69094.42,
+      "averageColorChanges": 323.68,
+      "averageIterations": 34868.98
+    },
+    {
+      "c": 10,
+      "nodeCount": 360,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 92398.28,
+      "averageColorChanges": 323.85,
+      "averageIterations": 46521.09
+    },
+    {
+      "c": 10,
+      "nodeCount": 360,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 115612.6,
+      "averageColorChanges": 323.7,
+      "averageIterations": 58128.13
+    },
+    {
+      "c": 10,
+      "nodeCount": 360,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 138655.3,
+      "averageColorChanges": 323.29,
+      "averageIterations": 69649.03
+    },
+    {
+      "c": 10,
+      "nodeCount": 360,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 162433.62,
+      "averageColorChanges": 324.34,
+      "averageIterations": 81539.28
+    },
+    {
+      "c": 10,
+      "nodeCount": 360,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 185474.08,
+      "averageColorChanges": 323.93,
+      "averageIterations": 93059.06
+    },
+    {
+      "c": 10,
+      "nodeCount": 360,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 208734.22,
+      "averageColorChanges": 323.9,
+      "averageIterations": 104689.12
+    },
+    {
+      "c": 10,
+      "nodeCount": 360,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 232236.6,
+      "averageColorChanges": 324.24,
+      "averageIterations": 116440.65
+    },
+    {
+      "c": 10,
+      "nodeCount": 410,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 29440.8,
+      "averageColorChanges": 368.76,
+      "averageIterations": 15087.29
+    },
+    {
+      "c": 10,
+      "nodeCount": 410,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 59694.32,
+      "averageColorChanges": 369.29,
+      "averageIterations": 30214.57
+    },
+    {
+      "c": 10,
+      "nodeCount": 410,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 89957.6,
+      "averageColorChanges": 369.4,
+      "averageIterations": 45346.31
+    },
+    {
+      "c": 10,
+      "nodeCount": 410,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 120195.08,
+      "averageColorChanges": 369.45,
+      "averageIterations": 60465.12
+    },
+    {
+      "c": 10,
+      "nodeCount": 410,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 149839.66,
+      "averageColorChanges": 368.12,
+      "averageIterations": 75286.02
+    },
+    {
+      "c": 10,
+      "nodeCount": 410,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 180583.98,
+      "averageColorChanges": 369.31,
+      "averageIterations": 90659.38
+    },
+    {
+      "c": 10,
+      "nodeCount": 410,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 210097.94,
+      "averageColorChanges": 368.0,
+      "averageIterations": 105415.17
+    },
+    {
+      "c": 10,
+      "nodeCount": 410,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 240317.62,
+      "averageColorChanges": 368.32,
+      "averageIterations": 120525.17
+    },
+    {
+      "c": 10,
+      "nodeCount": 410,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 271234.28,
+      "averageColorChanges": 369.38,
+      "averageIterations": 135984.55
+    },
+    {
+      "c": 10,
+      "nodeCount": 410,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 301946.48,
+      "averageColorChanges": 369.83,
+      "averageIterations": 151341.27
+    },
+    {
+      "c": 10,
+      "nodeCount": 460,
+      "density": 0.1,
+      "runsCount": 100,
+      "averageMoves": 37126.7,
+      "averageColorChanges": 413.25,
+      "averageIterations": 18974.67
+    },
+    {
+      "c": 10,
+      "nodeCount": 460,
+      "density": 0.2,
+      "runsCount": 100,
+      "averageMoves": 75294.4,
+      "averageColorChanges": 414.43,
+      "averageIterations": 38059.71
+    },
+    {
+      "c": 10,
+      "nodeCount": 460,
+      "density": 0.30000000000000004,
+      "runsCount": 100,
+      "averageMoves": 113317.18,
+      "averageColorChanges": 414.37,
+      "averageIterations": 57071.06
+    },
+    {
+      "c": 10,
+      "nodeCount": 460,
+      "density": 0.4,
+      "runsCount": 100,
+      "averageMoves": 151074.88,
+      "averageColorChanges": 413.54,
+      "averageIterations": 75949.11
+    },
+    {
+      "c": 10,
+      "nodeCount": 460,
+      "density": 0.5,
+      "runsCount": 100,
+      "averageMoves": 189528.2,
+      "averageColorChanges": 414.63,
+      "averageIterations": 95176.82
+    },
+    {
+      "c": 10,
+      "nodeCount": 460,
+      "density": 0.6,
+      "runsCount": 100,
+      "averageMoves": 226860.5,
+      "averageColorChanges": 413.24,
+      "averageIterations": 113841.6
+    },
+    {
+      "c": 10,
+      "nodeCount": 460,
+      "density": 0.7,
+      "runsCount": 100,
+      "averageMoves": 264862.74,
+      "averageColorChanges": 413.4,
+      "averageIterations": 132842.86
+    },
+    {
+      "c": 10,
+      "nodeCount": 460,
+      "density": 0.7999999999999999,
+      "runsCount": 100,
+      "averageMoves": 303294.94,
+      "averageColorChanges": 414.0,
+      "averageIterations": 152059.57
+    },
+    {
+      "c": 10,
+      "nodeCount": 460,
+      "density": 0.8999999999999999,
+      "runsCount": 100,
+      "averageMoves": 341575.38,
+      "averageColorChanges": 414.3,
+      "averageIterations": 171200.1
+    },
+    {
+      "c": 10,
+      "nodeCount": 460,
+      "density": 0.9999999999999999,
+      "runsCount": 100,
+      "averageMoves": 379775.6,
+      "averageColorChanges": 414.54,
+      "averageIterations": 190300.4
+    }
+  ]
+}

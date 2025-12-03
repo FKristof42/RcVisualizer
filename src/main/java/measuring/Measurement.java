@@ -73,26 +73,30 @@ public class Measurement {
 
     public static void main(String[] args) {
         int MAX_COLORS = 10;
-        int MAX_NODES = 100;
+        int MAX_NODES = 500;
+        int NODE_STEP = 50;
         int RUNSCOUNT = 100;
 
         int threads = Runtime.getRuntime().availableProcessors();
         ExecutorService pool = Executors.newFixedThreadPool(Math.max(1, threads));
 
         List<Future<Measurement>> futures = new ArrayList<>();
-
+        int nodeValuesCnt = 0;
         for (int c = 2; c <= MAX_COLORS; c++) {
-            for (int n = 10; n <= MAX_NODES; n += 10) {
+            for (int n = 10; n <= MAX_NODES; n += NODE_STEP) {
                 for (double d = 0.1; d <= 1.0; d += 0.1) {
                     final int cc = c;
                     final int nn = n;
                     final double dd = d;
+                    // Only for progress logging
+                    final int nodeValuesCntFinal = nodeValuesCnt;
                     futures.add(pool.submit(() -> {
-                        if (nn % 100 == 0 && dd == 0.1)
+                        if (nodeValuesCntFinal % 10 == 0 && dd == 0.1)
                             System.out.println("Starting measurement c=" + cc + " n=" + nn + " d=" + dd);
                         return new Measurement(cc, nn, dd, RUNSCOUNT);
                     }));
                 }
+                nodeValuesCnt++;
             }
         }
 
@@ -116,7 +120,7 @@ public class Measurement {
             Path out = Paths.get("measurements", "measurement.json");
 
             Gson g = new GsonBuilder().setPrettyPrinting().create();
-            String json = g.toJson(new Signature(MAX_COLORS, MAX_NODES, RUNSCOUNT, measurements));
+            String json = g.toJson(new Signature(MAX_COLORS, MAX_NODES, NODE_STEP, RUNSCOUNT, measurements));
             Files.createDirectories(out.getParent());
             Files.write(out, json.getBytes());
         } catch (IOException e) { throw new RuntimeException(e); }
